@@ -1,13 +1,205 @@
 {% extends "base.html" %}
 
 {% block header %}
-  <h1>Technical Skills</h1>
+  <h1>Technical Skills <a href="#"><small>All <span class="caret"></span></small></a></h1> 
 {% endblock %}
 
 {% block content %}
-<ul>
+<table class="table table-condensed">
+	<thead><tr><th><a href="#" >Name <span class="glyphicon glyphicon-sort-by-alphabet"></span></a></th><th><a href="#">Years <span class="glyphicon glyphicon-sort-by-order-alt"></span></a></th></tr></thead>
 
-	<li>
+	<tbody>
+	<tr>
+		<th>PHP</th>
+		<td><span class="badge">13</span></td>
+	</tr>
+
+	<tr>
+		<th>CSS/HTML</th>
+		<td><span class="badge">14</span></td>
+
+	</tr>
+
+	<tr>
+		<th>Javascript</th>
+		<td><span class="badge">14</span></td>
+	</tr>
+
+	<tr>
+		<th>Python</th>
+		<td><span class="badge">6</span></td>
+	</tr>
+
+	<tr>
+		<th>Google App Engine</th>
+		<td><span class="badge">1-2</span></td>
+	</tr>
+
+	<tr>
+		<th>Amazon Web Services</th>
+		<td><span class="badge">0</span></td>
+	</tr>
+
+
+	<tr>
+		<th>Java</th>
+		<td><span class="badge">1</span></td>
+	</tr>
+
+	<tr>
+		<th>C/C++</th>
+		<td><span class="badge">0.5</span></td>
+	</tr>
+
+	<tr>
+		<th>Apache httpd</th>
+		<td><span class="badge">14</span></td>
+	</tr>
+
+	<tr>
+		<th>MySQL</th>
+		<td><span class="badge">12</span></td>
+	</tr>
+
+	<tr>
+		<th>PostrgeSQL</th>
+		<td><span class="badge">12</span></td>
+	</tr>
+
+	<tr>
+		<th>Linux</th>
+		<td><span class="badge">14</span></td>
+	</tr>
+
+	<tr>
+		<th>Windows</th>
+		<td><span class="badge">14</span></td>
+	</tr>
+
+	<tr>
+		<th>Perl</th>
+		<td><span class="badge">4</span></td>
+	</tr>
+
+	<tr>
+		<th>Miva</th>
+		<td><span class="badge">3</span></td>
+	</tr>
+
+	<tr>
+		<th>C#</th>
+		<td><span class="badge">1</span></td>
+	</tr>
+
+	<tr>
+		<th>ASP</th>
+		<td><span class="badge">2</span></td>
+	</tr>
+
+	<tr>
+		<th>(SWI-)Prolog</th>
+		<td><span class="badge">0.5</span></td>
+	</tr>
+
+	<tr>
+		<th>Matlab</th>
+		<td><span class="badge">0.5</span></td>
+	</tr>
+
+	<tr>
+		<th>Selenium</th>
+		<td><span class="badge">2</span></td>
+	</tr>
+
+	<tr>
+		<th>Jenkins</th>
+		<td><span class="badge">2</span></td>
+	</tr>
+
+	<tr>
+		<th>Git</th>
+		<td><span class="badge">3</span></td>
+	</tr>
+
+	<tr>
+		<th>Subversion</th>
+		<td><span class="badge">11</span></td>
+	</tr>
+
+	<tr>
+		<th>CVS</th>
+		<td><span class="badge">3</span></td>
+	</tr>
+
+	<tr>
+		<th>Gettext</th>
+		<td><span class="badge">3</span></td>
+	</tr>
+
+	<tr>
+		<th>Maven</th>
+		<td><span class="badge">2</span></td>
+	</tr>
+
+	<tr>
+		<th>Wire Shark</th>
+		<td><span class="badge">5</span></td>
+	</tr>
+
+	<tr>
+		<th>Fiddler</th>
+		<td><span class="badge">5</span></td>
+	</tr>
+
+	<tr>
+		<th>Ruby</th>
+		<td><span class="badge">0</span></td>
+	</tr>
+
+	<tr>
+		<th>Qunit</th>
+		<td><span class="badge">2</span></td>
+	</tr>
+
+	<tr>
+		<th>Jasmine</th>
+		<td><span class="badge">1</span></td>
+	</tr>
+
+	<tr>
+		<th>Zend Framework</th>
+		<td><span class="badge">3</span></td>
+	</tr>
+
+	<tr>
+		<th>Symfony</th>
+		<td><span class="badge">1</span></td>
+	</tr>
+
+	<tr>
+		<th>CakePHP</th>
+		<td><span class="badge">2</span></td>
+	</tr>
+
+	<tr>
+		<th>Flight</th>
+		<td><span class="badge">0.25</span></td>
+	</tr>
+
+	<tr>
+		<th>PhantomJS</th>
+		<td><span class="badge">0.5</span></td>
+	</tr>
+	<tr>
+		<th>NodeJS</th>
+		<td><span class="badge">0</span></td>
+	</tr>
+	</tbody>
+</table>
+
+<ul class="list-group">
+
+	<li class="list-group-item">
 		<h2>PHP</h2>
 		<h3>Years: 13</h3>
 		<h3>Complimentary Experience: Zend Framework, CakePHP, Symfony</h3>
@@ -17,11 +209,11 @@
 		<h4>You Wont: Want to choose anyone else.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>CSS/HTML</h2>
 		<h3>Years: 14</h3>
 		<h3>Complimentary Experience: includes Twitter Bootstrap, HTML5 Boiler plate, Responsive Design, Mobile First, SMACSS</h3>
-		<p>A constant since my first web job back in 1999 I've kept my knowledge of these core web technologies current my whole career.</p>
+		<p>A constant since my first web job back in 1999, I've kept my knowledge of these core web technologies current my whole career.</p>
 
 		<p>I have direct experience in championing mobile first approaches coupled with responsive design in my last role. I also tend to favour graceful degradation, where the latest browser features are taken advantage of as a starting point for a design, rather than progressive enhancement. However choice of approach when it comes to web design is very much dependent on the type of product, target audience and budget. My experience is that it's best to adopt the combination of approaches that best fit the job at hand.</p>
 
@@ -30,7 +222,7 @@
 		<h4>You Wont: Want me to make create assets for your site in Photoshop/Fireworks/etc.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Javascript</h2>
 		<h3>Years: 14</h3>
 		<h3>Complimentary Experience: includes JQuery, AngularJS, FlightJS, SoundManager, Jplayer</h3>
@@ -44,11 +236,11 @@
 		<h4>You wont: Want to miss out on having someone this experienced on your team.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Python</h2>
 		<h3>Years: 6</h3>
 		<h3>Complimentary Experience: Django, webapp2, Jinja2, OpenCV.</h3>
-		<p>I've used Python to produce database (MySQL, PostgreSQL) driven sites, Google App Engine driven sites (including the one you're using now), data pre-processing tasks amongst other jobs.</p>
+		<p>I've used Python to produce database (MySQL, PostgreSQL) driven sites, Google App Engine driven sites (including the one you're using now), and data pre-processing tasks amongst other jobs.</p>
 
 		<p>I first used it in a commercial setting when I worked for MediaClash where Django was being used as the framework to produce all newly commissoned work. Since then my roles have been primarily PHP based with Python being used for personal projects. The result is I am a solid application programmer but don't have any working knowledge of advanced Python topics such as Metaclasses.</p>
 
@@ -56,7 +248,7 @@
 		<h4>You Wont: Want me to be the technical lead on your product.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Google App Engine</h2>
 		<h3>Years: 1-2</h3>
 		<h3>Complimentery: webapp2, Jinja2</h3>
@@ -70,7 +262,7 @@
 		<h4>You Wont: Want to miss out on having me as part of your team.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Amazon Web Services</h2>
 		<h3>Years: 0</h3>
 		<p>I've tinkered with Amazons cloud offerings in my own time but haven't direct commercial experience.</p>
@@ -82,7 +274,7 @@
 	</li>
 
 
-	<li>
+	<li class="list-group-item">
 		<h2>Java</h2>
 		<h3>Years: 1</h3>
 		<p>The last applications I produced were for my degree (2001), since then the most I've done is write Selenium tests.</p>
@@ -91,7 +283,7 @@
 		<h4>You Wont: Want me anywhere near a lead Java Programmer position without some time reading up and working at the coal face.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>C/C++</h2>
 		<h3>Years: 0.5</h3>
 		<h3>Complimentary Experience: OpenMP, MPI, OpenCL, OpenCV</h3>
@@ -105,7 +297,7 @@
 		<h4>You Wont: Want me in a senior coding position or coming straight into high time pressure situations.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Apache httpd</h2>
 		<h3>Years: 14</h3>
 		<p>The first web server I used when I started in the industry in 1999 when I would compile it from source on Sparc Solaris machines my practical experience with the Apache web server and its available modules is extensive.</p>
@@ -116,7 +308,7 @@
 		<h4>You Wont: Be able to find many developers who have this level of experience and ability to work with your sysadmins.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>MySQL</h2>
 		<h3>Years: 12</h3>
 		<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years.</p>
@@ -127,7 +319,7 @@
 		<h4>You Wont: Want me to be in charge of a project to shard, index and optimise a huge dataset.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>PostrgeSQL</h2>
 		<h3>Years: 12</h3>
 		<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years.</p>
@@ -140,10 +332,10 @@
 		<h4>You Wont: Want me to be in charge of a project to shard, index and optimise a huge dataset.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Linux</h2>
 		<h3>Years: 14</h3>
-		<p>My OS of choice for development I'm equally happy on the command line as the gui.</p>
+		<p>My OS of choice for development. I'm equally happy on the command line as the gui.</p>
 
 		<p>Linux and other *nix based systems have been the mainstay of my career. My early roles would probably now be described as dev-ops as I did a mix of sysadmin and development. While my career solidified around software development/engineering I have found my early experience very useful enabling me to setup and maintain a multitude of different development environments and have intelligent conversations with the teams that have provided the infrastructure for live environments I have operated in.</p>
 
@@ -153,10 +345,10 @@
 		<h4>You Wont: rm -rf /*.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Windows</h2>
 		<h3>Years: 14</h3>
-		<p>I'm competent working in a Windows environment</p>
+		<p>What is there to say, it's Windows right?</p>
 
 		<p>My experience with Windows systems have been a limited constant throghout my career. I've known enough to be able to troubleshoot problems as part of an on call team but knowing that I have the backup of a more knowledgeable colleague if required. I've worked with a number of Windows based development environments over the years, generally when managing my own Linux workstation/laptop isn't an option. This means that I am familiar with the requisite tools such as remote desktop to get to other Windows machines and Putty to be able to get onto other Linux machines. This also works the other way round, that is I am used to establishing remote desktop sessions from Linux workstations. It also means that I have come across and worked around fun issues in a mixed environment such as version control systems getting confused because Windows files are case insensitive While *nix files are case sensitive. Always fun.</p>
 
@@ -166,7 +358,7 @@
 		<h4>You Wont: Want me to troubleshoot complicated problems with IIS, SQL Server or other Microsoft products.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Perl</h2>
 		<h3>Years: 4</h3>
 		<p>The first language I produced websites in I rarely pick this up any more as Python is my go to tool of choice for small scripting jobs.</p>
@@ -174,7 +366,7 @@
 		<h4>You Wont: Want me to lead a Perl based project.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Miva</h2>
 		<h3>Years: 3</h3>
 		<p>This is probably the most obscure scripting language I've worked with which I came across in my first role after graduating. I've just checked and it still appears to be going as Miva Merchant. I would need a strong motivating factor to work with it again.</p>
@@ -182,7 +374,7 @@
 		<h4>You Wont: Want to recruit me for this, I barely remember it.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>C#</h2>
 		<h3>Years: 1</h3>
 		<p>I spent a year doing C# but I'd probably have to review the language from the ground up to get proficicent again.</p>
@@ -195,7 +387,7 @@
 		<h4>You Wont: Be able to expect me to come in to a time pressured situation and make the difference with my C# skills.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>ASP</h2>
 		<h3>Years: 2</h3>
 		<p>Not the .NET variant, my proficiency here is monkey see, monkey do.</p>
@@ -205,7 +397,7 @@
 		<h4>You Wont: Want to tell me about it unless it's to help migrate your product to something else.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>(SWI-)Prolog</h2>
 		<h3>Years: 0.5</h3>
 		<p>Only used in an academic setting as part of an Msc and for personal dabbling.</p>
@@ -215,7 +407,7 @@
 		<h4>You Wont: Want to put me in charge of a project that depends on lots of experience with Prolog.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Matlab</h2>
 		<h3>Years: 0.5</h3>
 		<p>I've used Matlab in a purely academic context as part of an Msc.</p>
@@ -225,7 +417,7 @@
 		<h4>You Wont: Want to hire me as a Matlab expert.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Selenium</h2>
 		<h3>Years: 2</h3>
 		<p>I've used Selenium and Selenium grid to conduct automated multi-browser testing of web products as part of a continuous integration environment.</p>
@@ -238,7 +430,7 @@
 		<h4>You Wont: Find many with as much hands on experience with this tech.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Jenkins</h2>
 		<h3>Years: 2</h3>
 		<p>I have installed, configured and migrated a number of jenkins servers and jobs giving me a lot of hands on experience with this tool.</p>
@@ -247,7 +439,7 @@
 		<h4>You Wont: Have to worry about holding my hand.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Git</h2>
 		<h3>Years: 3</h3>
 		<p>I'm a competent day-to-day user of Git but do generally have to hit the manual if something unexpected happens.</p>
@@ -260,7 +452,7 @@
 		<h4>You Wont: Want me to try to explain Gits internals off the top of my head.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Subversion</h2>
 		<h3>Years: 13</h3>
 		<p>I moved to Subversion as soon as the first stable version was released as it fixed so many of the problems with CVS. It was a huge improvement but still had problems. There are now much better options out there, personally I use Git, figuring if it's good enough the Linux Kernel development then it's good enough for me. I also hear good things about Mercurial from people whose opinion I respect and I know are happy using Git as well, I just haven't got round to trying it yet.</p>
@@ -269,7 +461,7 @@
 		<h4>You Wont: Find I'm a fan of Subversion projects with lots of small files.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>CVS</h2>
 		<h3>Years: 3</h3>
 		<p>It did a good job for its time but I really hope you're not still using CVS. Move to Git or Mercurial, for the sake of all your developers.</p>
@@ -277,7 +469,7 @@
 		<h4>You Wont: Want to keep using CVS.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Gettext</h2>
 		<h3>Years: 3</h3>
 		<p>Used in a PHP context to provide a multi-lingual and localised web product to 35 different territories. I recommended it's use within the project and worked with the third party translators to ensure they and we were happy.</p>
@@ -285,7 +477,7 @@
 		<h4>You Wont: Want me translating things myself.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Maven</h2>
 		<h3>Years: 2</h3>
 		<p>I learnt Maven in my last role where it was the backbone of the continuous integration environment. Using it to wrap a PHP product was a little... inelegant as it is more of a Java tool and so there are assumptions about compile steps. It is also a on the heavy side as its configuration files are XML based but it does get the job done.</p>
@@ -293,17 +485,17 @@
 		<h4>You Wont: Find me wearing a Maven t-shirt. If there is one.</h4>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Wire Shark</h2>
 		<h3>Years: 5</h3>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Fiddler</h2>
 		<h3>Years: 2</h3>
 	</li>
 
-	<li>
+	<li class="list-group-item">
 		<h2>Ruby</h2>
 		<h3>Years: 0</h3>
 		<p>I did a bit of ruby when I read 7 languages in 7 weeks</p>

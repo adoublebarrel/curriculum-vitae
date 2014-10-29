@@ -20,7 +20,7 @@
   <body>
 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigiation">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
@@ -46,15 +46,20 @@
         </div>
     </nav>
 
-    <div class="page-header">
-        {% block header %}
-        <h1>Whoops!</h1>
-        {% endblock %}
-    </div>
+    <div class="container">
 
-    {% block content %}
-    <p>Looks like Alex hasn't plugged in the content for this page yet! Don't worry, I'll email to let him know.</p>
-    {% endblock %}
+        <div class="page-header">
+            {% block header %}
+            <h1>Whoops!</h1>
+            {% endblock %}
+        </div>
+
+
+        {% block content %}
+        <p>Looks like Alex hasn't plugged in the content for this page yet! Don't worry, I'll email to let him know.</p>
+        {% endblock %}
+
+    </div>
 
     <nav class="navbar navbar-default navbar-static-bottom" role"secondary-navigation">
         <div class="container">
