@@ -1,0 +1,17 @@
+body { padding-top: 20px; }
+
+@media print {
+	.page-break	{ page-break-before: always; }
+}
+
+.jump-to:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
+}
+
+.jump-to:focus {
+	outline: none;
+}

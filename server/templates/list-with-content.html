@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <h1>{{title}}</h1>
+{% endblock %}
+
+{% block content %}
+<table class="table table-condensed">
+	<thead><tr><th>Name</th><th>Years</th></tr></thead>
+
+	<tbody>
+		{% for skill in list %}
+		<tr>
+			<td><a href="#{{ skill.name_lower }}">{{ skill.name }}</a></td>
+			<td><span class="badge">{{ (skill.months/12)|round|int }}</span></td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
+
+<div class="containr">
+	<ul class="list-group">
+
+		{% for skill in list %}
+		<li class="list-group-item">
+			<small class="pull-right"><a id="{{skill.name_lower}}" href="#top" class="jump-to">Back to Top</a></small>
+			<h2>{{ skill.name }}</h2>
+			{{ skill.description }}
+		</li>
+		{% endfor %}
+
+	</ul>
+</div>
+{% endblock %}
+
+{% block js %}
+	<script src="/js/common.js" data-main="/js/main.js"></script>
+{% endblock %}

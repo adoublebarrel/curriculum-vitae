@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <script src='https://www.google.com/recaptcha/api.js'></script>	
+{% endblock %}
+
+{% block header %}
+  <h1>Contact</h1>
+{% endblock %}
+
+{% block content %}
+	<form id="contact1" name="contact" class="form-horizontal" role="form" action="/contact" method="post">
+	  <div id="name" class="form-group has-error has-feedback">
+	    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+	    <div class="col-sm-10">
+	      <input type="text" class="form-control" id="inputName1" placeholder="Name" required="true" name="name" value="{{name|e}}">
+	      <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+  		  <span id="nameStatus" class="sr-only">(error)</span>
+	    </div>
+	  </div>
+
+	  <div id="email" class="form-group has-error has-feedback">
+	    <label for="inputEmail1" class="col-sm-2 control-label">Email</label>
+	    <div class="col-sm-10">
+	      <input type="email" class="form-control" id="inputEmail1" placeholder="e.g. alex@example.com" required="true" name="email" value="{{email|e}}">
+  	      <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+  		  <span id="emailStatus" class="sr-only">(error)</span>
+	    </div>
+	  </div>
+
+	  <div id="message" class="form-group has-error has-feedback">
+	    <label for="inputMessage1" class="col-sm-2 control-label">Message</label>
+	    <div class="col-sm-10">
+	      <textarea id="inputMessage1" class="form-control" rows=3 placeholder="Your message..." required="true" name="message">{{message|e}}</textarea>
+          <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+  		  <span id="messageStatus" class="sr-only">(error)</span>
+	    </div>
+	  </div>
+
+	  <div id="recaptcha" class="form-group has-feedback has-error">
+	    <label class="col-sm-2 control-label">Are you a robot?</label>
+		<div class="g-recaptcha col-sm-10" data-sitekey="6LdT9_4SAAAAAHEAcUeuwk4wvDOOGmeeew5nJhjt" data-callback="recaptchaSuccessful"></div>
+	  </div>
+	  <div class="form-group">
+	    <div class="col-sm-offset-2 col-sm-10">
+	      <button type="submit" class="btn btn-default">Send</button>
+	    </div>
+	  </div>
+	</form>
+
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript">
+        var recaptchaSuccessful = function() {
+          console.log('fired recaptcha');
+          console.log(arguments);	
+          $(document).trigger('recaptcha-successful');
+        }
+    </script>
+	<script src="/js/common.js" data-main="/js/contact.js"></script>
+{% endblock %}

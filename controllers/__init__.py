@@ -1,5 +1,0 @@
-from synopsis import SynopsisHandler
-from devMethods import DevMethodsHandler
-from techSkills import TechSkillsHandler
-from personalAttributes import PersonalAttributesHandler
-from employment import EmploymentHandler
