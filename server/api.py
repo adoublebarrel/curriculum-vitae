@@ -6,4 +6,4 @@ app = webapp2.WSGIApplication([
     webapp2.Route('/import/skills', handler='server.controllers.import.ImportSkillsHandler'),
     webapp2.Route('/import/cv', handler='server.controllers.import.ImportCvHandler'),
     webapp2.Route('/import/person', handler='server.controllers.import.ImportPersonsHandler')
-], debug=True)
+], debug=False)

@@ -94,7 +94,7 @@ describeComponent('component/filter-control', function() {
 
 	});
 
-	it("triggers a filter name change to 'custom' when a filter is populated", function (){
+	it("triggers a filter name change to 'custom' when a filter is populated and enter is hit", function (){
 		var e = jQuery.Event("keyup"),
 			filterName = this.component.select('filterNameSelector'),
 			textInput = this.component.select('textInputSelector');
@@ -107,6 +107,26 @@ describeComponent('component/filter-control', function() {
 		this.component.trigger(filterName, 'click');
 		textInput.val('php');
 		textInput.trigger(e);
+
+		expect('newFilter').toHaveBeenTriggeredOnAndWith(document, {name: 'Custom Filter'});
+
+	});
+
+	it("triggers a filter name change to 'custom' when a filter is populated and the okSelector is clicked", function (){
+		var e = jQuery.Event("keyup"),
+			filterName = this.component.select('filterNameSelector'),
+			textInput = this.component.select('textInputSelector');
+
+		e.which = 13; //choose the one you want
+		e.keyCode = 13;
+
+		spyOnEvent(document,'newFilter');
+
+		this.component.trigger(filterName, 'click');
+		textInput.val('php');
+		textInput.trigger('keyup');
+		this.component.trigger(this.component.select('okSelector'), 'click');
+
 
 		expect('newFilter').toHaveBeenTriggeredOnAndWith(document, {name: 'Custom Filter'});
 

@@ -17,7 +17,6 @@ class CvListHandler(base.BaseHandler):
 class CvHandler(base.BaseHandler):
 	def get(self, name):
 		template = base.template_engine.get_template('cv/cv.html')
-		logging.warning('NOT full');
 
 		self.data['cv'] = Cv.query(Cv.name_uri == name).get()
 		self.data['tech_skills'] = Skill.query(Skill.key.IN(self.data['cv'].tech_skills)).order(Skill.name)

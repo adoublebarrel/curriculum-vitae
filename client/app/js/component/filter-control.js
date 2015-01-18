@@ -38,18 +38,14 @@ define(
 			}
 
 			this.triggerUpdate = function(ev, data) {
-				
-				if (ev.keyCode == 13) {
-					this.hideControls();
 
-					if (this.select('textInputSelector').val().length > 0) {
-						this.trigger('newFilter', { name: 'Custom Filter'});
-					} else  {
-						this.trigger('newFilter',{});
-					}
+				if (ev.keyCode == 13) {
+					this.updateName();
 
 					return;
 				}
+
+
 
 				this.trigger(this.attr.trigger, { filter: this.select('textInputSelector').val() });
 			}
@@ -62,10 +58,20 @@ define(
 				this.select('textInputSelector').val('');
 			}
 
+			this.updateName = function(ev, data) {
+				if (this.select('textInputSelector').val().length > 0) {
+					this.trigger('newFilter', { name: 'Custom Filter'});
+				} else  {
+					this.trigger('newFilter',{});
+				}
+
+				this.hideControls();
+			}
+
 			this.after('initialize', function() {
 				this.on('click', {
 					filterNameSelector: this.showControls,
-					okSelector: this.hideControls,
+					okSelector: this.updateName,
 					textInputSelector: this.closeDropdown,
 					dropdownSelector: this.clearTextInput
 				});

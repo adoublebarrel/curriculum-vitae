@@ -72,6 +72,10 @@ handlers:
   script: server.start.app
   secure: always
 
+- url: /contact/sent
+  script: server.start.app
+  secure: always
+
 - url: /copyright
   script: server.start.app
 

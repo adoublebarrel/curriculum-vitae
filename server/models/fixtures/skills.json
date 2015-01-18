@@ -11,10 +11,10 @@
 },
 
 {
-	"name": "CSS & HTML",
+	"name": "CSS &amp; HTML",
 	"Years": 14,
 	"complement": "includes Twitter Bootstrap, HTML5 Boiler plate, Responsive Design, Mobile First, SMACSS",
-	"description": "<p>A constant since my first web job back in 1999, I've kept my knowledge of these core web technologies current my whole career.</p><p>I have direct experience in championing mobile first approaches coupled with responsive design in my last role. I also tend to favour graceful degradation, where the latest browser features are taken advantage of as a starting point for a design, rather than progressive enhancement. However choice of approach when it comes to web design is very much dependent on the type of product, target audience and budget. My experience is that it's best to adopt the combination of approaches that best fit the job at hand.</p>",
+	"description": "<p>A constant since my first web job back in 1999, I've kept my knowledge of these core web technologies current my whole career. In my last position I championed a move towards responsive design and the use of the latest and emerging standards.</p><p>I have direct experience in championing mobile first approaches coupled with responsive design in my last role. I also tend to favour graceful degradation, where the latest browser features are taken advantage of as a starting point for a design, rather than progressive enhancement. However choice of approach when it comes to web design is very much dependent on the type of product, target audience and budget. My experience is that it's best to adopt the combination of approaches that best fit the job at hand.</p>",
 	"will": "Want me to help your designers achieve great looking web based products",
 	"wont": "Want me to make create assets for your site in Photoshop/Fireworks/etc.",
 	"category": "tech",
@@ -25,7 +25,7 @@
 	"name": "Javascript",
 	"Years": 14,
 	"complement": "JQuery, AngularJS, FlightJS, SoundManager, Jplayer",
-	"description": "<p>Whether it's writing 'vanilla' script to working with the plethora of frameworks and libraries available you will find me to be a very strong asset.</p><p>While I've worked with JS my entire career my knowledge of it as a language heavily accelerated during my time at Nokia. If you're doing more than just changing CSS classes I consider Crockfords Javascript the Good Parts required reading and highly recommend Addy Osmanis Learnig Javascript design patterns. I still consider JQuery to be essential if you want your product to work on a wide number of browsers with a minimum of fuss. If a framework is being used I tend to prefer lighter ones that augment/work with the DOM model we have currently such as FlightJS rather than ones which enforce their own model such as AngularJS. However there are situations where angular is the perfect tool for the job.</p><p>I've tinkered with NodeJS but didn't consider it ready for production environments where %99.99 uptime Service Level Agreements are in place. If you're looking for someone to help with a NodeJS based product then I would be very interested in the work and how you are finding its' stability.</p>",
+	"description": "<p>I've worked with Javascript my whole career but it was at Nokia that I transitioned from using it for simple interactions/JQuery usage to having a full appreciation of its strengths and weaknesses. Whether it's writing just plain Javascript or leveraging the plethora of libraries and frameworks that are available, you wont find many people with more experience.</p><p>While I've worked with JS my entire career my knowledge of it as a language heavily accelerated during my time at Nokia. If you're doing more than just changing CSS classes I consider Crockfords Javascript the Good Parts required reading and highly recommend Addy Osmanis Learnig Javascript design patterns. I still consider JQuery to be essential if you want your product to work on a wide number of browsers with a minimum of fuss. If a framework is being used I tend to prefer lighter ones that augment/work with the DOM model we have currently such as FlightJS rather than ones which enforce their own model such as AngularJS. However there are situations where angular is the perfect tool for the job.</p><p>I've tinkered with NodeJS but didn't consider it ready for production environments where %99.99 uptime Service Level Agreements are in place. If you're looking for someone to help with a NodeJS based product then I would be very interested in the work and how you are finding its' stability.</p>",
 	"will": "Want me to consult, lead and/or help produce your JS codebase.",
 	"wont": "Want to miss out on having someone this experienced on your team.",
 	"category": "tech",
@@ -68,7 +68,7 @@
 {
 	"name": "Java",
 	"Years": 1,
-	"description": "<p>The last applications I produced were for my degree (2001), since then the most I've done is write Selenium tests.</p>",
+	"description": "<p>The last application I produced using Java was a long time ago and the language has moved on significantly since then. The most I've done recently is co-author and maintain a Selenium based testing suite, but that doesn't require a very deep knowledge of Javas internals.</p>",
 	"will": "be able to trust me to use Java at a superficial level and/or quickly up my knowledge if required.",
 	"wont": "Want me anywhere near a lead Java Programmer position without some time reading up and working at the coal face.",
 	"category": "tech",
@@ -76,14 +76,32 @@
 },
 
 {
-	"name": "C/C++",
+	"name": "C",
 	"Years": 0.5,
-	"complement": "OpenMP, MPI, OpenCL, OpenCV",
-	"description": "<p>I'm a junior C programmer after learning the language as part of an Msc programme where I used it for High Performance Computing and Server Software units.</p><p>I recently learnt C as part of an Msc course I was taking. Specifically I learnt it while taking a High Performance Computing (HPC) unit where we were optimising a provided two dimensonal simulation of water flowing along a surface with obstacles present. I would describe myself as proficient with the language itself but in need of more code cutting experience to come across and debug more problems. This in turn would up my proficiency with the various [enter some here] profiling and debugging tools which I see as key to becoming a highly effective/efficient C programmer.</p><p>I also became proficient in C++ after C as part of doing some computer vision base work which involved the use of the OpenCV library as well as using the OpenCL C++ interface as part of the HPC unit. Again I would say that I need more code cutting time to come across and debug more problems but in addition to improving my proficiency with the [put some here] profiling and debugging tools it would also deepen my practical experience of the standard library.</p>",
+	"complement": "OpenMP, MPI, OpenCL",
+	"description": "<p>I'm a junior C programmer after learning the language as part of an Msc programme where I used it for High Performance Computing and Server Software units. I have the basics of the language down but still need to gain more practical experience with the various debugging and profiling tools that make up the C ecosystem.</p><p>I recently learnt C as part of an Msc course I was taking. Specifically I learnt it while taking a High Performance Computing (HPC) unit where we were optimising a provided two dimensonal simulation of water flowing along a surface with obstacles present. I would describe myself as proficient with the language itself but in need of more code cutting experience to come across and debug more problems. This in turn would up my proficiency with the various [enter some here] profiling and debugging tools which I see as key to becoming a highly effective/efficient C programmer.</p><p>I also became proficient in C++ after C as part of doing some computer vision base work which involved the use of the OpenCV library as well as using the OpenCL C++ interface as part of the HPC unit. Again I would say that I need more code cutting time to come across and debug more problems but in addition to improving my proficiency with the [put some here] profiling and debugging tools it would also deepen my practical experience of the standard library.</p>",
 	"will": "Want me to produce well defined units of work.",
 	"wont": "Want me in a senior coding position or coming straight into high time pressure situations.",
 	"category": "tech",
 	"tags": ["Programming Language", "HPC"]
+},
+
+{
+	"name": "C++",
+	"Years": 0.5,
+	"description": "<p>I'm a junior C++ prgrammer after learning the language as part of an Msc where I worked on a computer vision project and part of a high performance computing unit. I have the basics of the language down but my knowledge of and experience with the C++ standard library is at an early stage.</p>",
+	"will": "Want me to produce well definde units of work.",
+	"wont": "Want me in a senior coding position.",
+	"category": "tech",
+	"tags": ["Programming Language", "HPC"]
+},
+
+{
+	"name": "Clojure",
+	"Years": 0.25,
+	"description": "<p>I was introduced to this language by colleagues at Nokia who started to produce new services as well as migrating existing Java based services to it. I've had some formal training in it, got the book, done some Koans but haven't used it for any projects yet.</p>",
+	"category": "tech",
+	"tags": ["Programming Language"]
 },
 
 {
@@ -98,7 +116,7 @@
 {
 	"name": "MySQL",
 	"Years": 12,
-	"description": "<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years.</p><p>I've designed, implemented and optimised many a schema for MySQL databases that were used as the backend of various web services and sites. I've also setup replication infrastructures for load balanced systems. I have classical training from my degree and the practical experience to take a schema design to 3rd normal form and then regress it for the sake of performance.</p><p>I've not been directly involved with the sharding of large datasets and the use of seperate indexing technology such as Solr. I've not been hands on with MySQl for couple of years but will be able to get back up to speed quickly if required.</p>",
+	"description": "<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years. More recently I've been working either with web services as read only datastores or NoSQL products such as Googles offering. However while MySQL has continued to evolve the basics of good relational database design and optimisation are relatively constant. It wouldn't take long for me to get back up to speed.</p><p>I've designed, implemented and optimised many a schema for MySQL databases that were used as the backend of various web services and sites. I've also setup replication infrastructures for load balanced systems. I have classical training from my degree and the practical experience to take a schema design to 3rd normal form and then regress it for the sake of performance.</p><p>I've not been directly involved with the sharding of large datasets and the use of seperate indexing technology such as Solr. I've not been hands on with MySQl for couple of years but will be able to get back up to speed quickly if required.</p>",
 	"will": "Want me to advise on schema design, indexing and query optimisation for small to large datasets.",
 	"wont": "Want me to be in charge of a project to shard, index and optimise a huge dataset.",
 	"category": "tech",
@@ -108,9 +126,17 @@
 {
 	"name": "PostrgeSQL",
 	"Years": 12,
-	"description": "<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years.</p><p>I've designed, implemented and optimised a number of databases in PostgreSQL over the years. I have classical training from my degree and the practical experience to take a schema design to 3rd normal form and then to peel it back for the sake of performance.</p><p>The biggest PostgreSQL database I've worked with was for UK Digital Radio postcode checker which maps the signal strength of digital stations to postcodes in the UK. The database was in the order of tens of millions of rows. After taking over responsibility for the database I reduced the amount of time it took for updates receieved from Arqiva to be made from 3-4 days to 2-4 hours.</p><p>My last role was purely application focused meaning I haven't worked directly with Postgres for a few years but renewing that knowledge wouldn't be a difficult task.</p><p>I don't have direct experience with larger data sets which may require a sharded PostrgeSQL solution.</p>",
+	"description": "<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years. More recently I've been working either with web services as datastores or NoSQL datastores such as Googles offering. However while PostrsSQL has continued to evolve the basics of good relational database design and optimisation are relatively constant. It wouldn't take long for me to get back up to speed.</p><p>I've designed, implemented and optimised a number of databases in PostgreSQL over the years. I have classical training from my degree and the practical experience to take a schema design to 3rd normal form and then to peel it back for the sake of performance.</p><p>The biggest PostgreSQL database I've worked with was for UK Digital Radio postcode checker which maps the signal strength of digital stations to postcodes in the UK. The database was in the order of tens of millions of rows. After taking over responsibility for the database I reduced the amount of time it took for updates receieved from Arqiva to be made from 3-4 days to 2-4 hours.</p><p>My last role was purely application focused meaning I haven't worked directly with Postgres for a few years but renewing that knowledge wouldn't be a difficult task.</p><p>I don't have direct experience with larger data sets which may require a sharded PostrgeSQL solution.</p>",
 	"will": "Want me to advise on schema design, indexing and query optimisation for small to large datasets.",
 	"wont": "Want me to be in charge of a project to shard, index and optimise a huge dataset.",
+	"category": "tech",
+	"tags": ["Database"]
+},
+
+{
+	"name": "Google Cloud Datastore",
+	"Years": 1,
+	"description": "<p>Over the last few years I've run a number of personal projcets (including this one) on Googles cloud platform. This has included the use of the DB and now NDB APIs to interact wiht Googles NoSQL datastore. I've also conducted some research into Googles Datastore for a unit of an Msc. As a result I have a sound theoretical knowledge of issues unique to the datastore such as indexes, transactions, eventual consistency v.s. strong consistency, etc.</p>",
 	"category": "tech",
 	"tags": ["Database"]
 },
@@ -158,7 +184,7 @@
 {
 	"name": "C#",
 	"Years": 1,
-	"description": "<p>I spent a year doing C# but I'd probably have to review the language from the ground up to get proficicent again.</p><p>I worked as part of a team producing content management systems based upon a product called SiteCore. SiteCore is a Windows based product so we were required to learn C# and .NET along with it.</p><p>My career since hasn't involved any C# which is a bit of a shame since it's a good well designed language. I still dabble with it on some personal projects but nothing that's seen the light of day yet. My knowlegde of .NET would be very out of date if it hadn't already atrophied rather badly.</p>",
+	"description": "<p>I spent about a year using C# in combination with a CMS called SiteCore but, apart from playing around with it in the game development engine Unity, haven't done much with it since.</p><p>I worked as part of a team producing content management systems based upon a product called SiteCore. SiteCore is a Windows based product so we were required to learn C# and .NET along with it.</p><p>My career since hasn't involved any C# which is a bit of a shame since it's a good well designed language. I still dabble with it on some personal projects but nothing that's seen the light of day yet. My knowlegde of .NET would be very out of date if it hadn't already atrophied rather badly.</p>",
 	"will": "Be able to expect me to pick this up again if it's required.",
 	"wont": "Be able to expect me to come in to a time pressured situation and make the difference with my C# skills.",
 	"category": "tech",
@@ -168,17 +194,17 @@
 {
 	"name": "ASP",
 	"Years": 2,
-	"description": "<p>Not the .NET variant, my proficiency here is monkey see, monkey do.</p><p>One of my duties at MediaClash was maintaining an number of older client sites. These were based on previous technical stacks now that all new sites were being produced using the Python based Django framework. A number of these were produced using ASP, not ASP .NET just ASP. Changes to their codebases were usually around hard coded data which while I hadn't used ASP before, one scripting language is much like another, which was enough for me to keep the sites running.</p>",
+	"description": "<p>Not the .NET variant. While at MediaClash I had to maintain a couple of older websites that used ASP. My proficiency here is pretty much monkey see, monkey do.</p><p>One of my duties at MediaClash was maintaining an number of older client sites. These were based on previous technical stacks now that all new sites were being produced using the Python based Django framework. A number of these were produced using ASP, not ASP .NET just ASP. Changes to their codebases were usually around hard coded data which while I hadn't used ASP before, one scripting language is much like another, which was enough for me to keep the sites running.</p>",
 	"will": "Find I have little skill with this language.",
 	"wont": "Want to tell me about it unless it's to help migrate your product to something else.",
 	"category": "tech",
-	"tags": ["Programming Language"]
+	"tags": []
 },
 
 {
 	"name": "SWI-Prolog",
 	"Years": 0.5,
-	"description": "<p>Only used in an academic setting as part of an Msc and for personal dabbling.</p><p>It took some getting used to after spending so many years programming in other not only other languages but in different programming paradigms. For me at the moment it is an interesting toy but I have some personal projects where I think this language may provide a practical benefit.</p>",
+	"description": "<p>Learnt for an artificial intelligence unit as part of an Msc, this language has been one of the hardest to get my head around since I made the move from procedural to OO. It was difficult but rewarding and I'm looking forward to experimenting with applications based on it in the future.</p><p>It took some getting used to after spending so many years programming in other not only other languages but in different programming paradigms. For me at the moment it is an interesting toy but I have some personal projects where I think this language may provide a practical benefit.</p>",
 	"will": "Find me interested in opportunities to work with this language/paradigm.",
 	"wont": "Want to put me in charge of a project that depends on lots of experience with Prolog.",
 	"category": "tech",
@@ -198,7 +224,7 @@
 {
 	"name": "Selenium",
 	"Years": 2,
-	"description": "<p>I've used Selenium and Selenium grid to conduct automated multi-browser testing of web products as part of a continuous integration environment.</p><p>However the team I was part of eventually abandoned this solution as the overhead of maintaining the various browser drivers and the lag between browser updates breaking the selenium drivers and fixes being released resulted in too many false positives. We were spending so much time figuring out whether breakages were due to our code or selenium driver problems that it was impacting our ability to deliver new functionality.</p><p>The situation may of improved since then but my current stance is that it is better to use a third party tool such as Browser stack, especially as it also simulates different devices, than try to keep a large suite of test devices as part of an automated solution.</p>",
+	"description": "<p>I've used Selenium and Selenium grid to conduct automated multi-browser testing of web products as part of a continuous integration environment. The results were mixed though and the team I was in moved towards a CasperJS solution combined with expermentation with the BrowserStack service.</p><p>However the team I was part of eventually abandoned this solution as the overhead of maintaining the various browser drivers and the lag between browser updates breaking the selenium drivers and fixes being released resulted in too many false positives. We were spending so much time figuring out whether breakages were due to our code or selenium driver problems that it was impacting our ability to deliver new functionality.</p><p>The situation may of improved since then but my current stance is that it is better to use a third party tool such as Browser stack, especially as it also simulates different devices, than try to keep a large suite of test devices as part of an automated solution.</p>",
 	"will": "Want me to advise on usage of Selenium and other testing options.",
 	"wont": "Find many with as much hands on experience with this tech.",
 	"category": "tech",
@@ -228,7 +254,7 @@
 {
 	"name": "Subversion",
 	"Years": 13,
-	"description": "<p>I moved to Subversion as soon as the first stable version was released as it fixed so many of the problems with CVS. It was a huge improvement but still had problems. There are now much better options out there, personally I use Git, figuring if it's good enough the Linux Kernel development then it's good enough for me. I also hear good things about Mercurial from people whose opinion I respect and I know are happy using Git as well, I just haven't got round to trying it yet.</p><p>If you're reading this because you're looking for someone who can use Subversion, I can but I'll also give some advice you haven't asked for. Migrate your project to Git or Mercurial. I know it can be a lot of effort and some people will grumble at the change but I can vouch that Git is better, there's just a set of problems I don't have to deal with now and good people tell me Mercurial is too. It may be painful but it will be worth it in terms of productivity.</p>",
+	"description": "<p>I moved to Subversion as soon as the first stable version was released as it fixed so many of the problems with CVS. It was a huge improvement but still had problems. There are now better options out there, personally I use Git, figuring if it's good enough the Linux Kernel development then it's good enough for me. I also hear good things about Mercurial from people whose opinion I respect and I know are happy using Git as well, I just haven't got round to trying it yet.</p><p>If you're reading this because you're looking for someone who can use Subversion, I can but I'll also give some advice you haven't asked for. Migrate your project to Git or Mercurial. I know it can be a lot of effort and some people will grumble at the change but I can vouch that Git is better, there's just a set of problems I don't have to deal with now and good people tell me Mercurial is too. It may be painful but it will be worth it in terms of productivity.</p>",
 	"will": "Find I'm competent with Subversion.",
 	"wont": "Find I'm a fan of Subversion projects with lots of small files.",
 	"category": "tech",
@@ -267,7 +293,7 @@
 
 {
 	"name": "Wire Shark",
-	"description": "<p>Mainly used when for problem identification when the builtin browser dev tools aren't cutting the mustard.</p>",
+	"description": "<p>A great tool for seeing what's really going on when a browsers dev tools aren't being very helpful and other situations when you need to get your hands on the raw packets of network comms.</p>",
 	"Years": 5,
 	"category": "tech",
 	"tags": ["Web Client", "Web Server"]
@@ -275,7 +301,7 @@
 
 {
 	"name": "Fiddler",
-	"description": "<p>Mainly used when for problem identification when the builtin browser dev tools aren't cutting the mustard.</p>",
+	"description": "<p>I've mainly used this handy plugin for browsers on Windows to aid problem identification when the builtin browser dev tools aren't cutting the mustard.</p>",
 	"Years": 2,
 	"category": "tech",
 	"tags": ["Web Client", "Web Server"]
@@ -284,7 +310,7 @@
 {
 	"name": "Ruby",
 	"Years": 0,
-	"description": "<p>I did a bit of ruby when I read 7 languages in 7 weeks.</p>",
+	"description": "<p>I did a bit of ruby as part of a group at work who were going through the book 7 languages in 7 weeks together. Its penchant for syntatic sugar reminded me of Perl but I haven't used it long enough to get a proper feel for it.</p>",
 	"will": "Need to give me time to become proficient with this language.",
 	"wont": "Find my rapidly knocking out five star ruby code from the off.",
 	"category": "tech",
@@ -370,6 +396,14 @@
 },
 
 {
+	"name": "GulpJS",
+	"Years": 0.08333,
+	"description": "<p>I've only recently come across this workflow automation tool as it now comes bundled with the FlightJS project generator. I'm a fan of the Unix idiom of small programs that do job well being combined for larger tasks, so plan to experiment with this in the future.</p>",
+	"category": "tech",
+	"tags": ["Web Client"]
+},
+
+{
 	"name": "PhantomJS",
 	"Years": 1,
 	"description": "<p>I came across PhantomJS while researching alternatives to Selenium which my team were using as part of a continuous integration environment. We promptly adopted it, in combination with CasperJS resulting in a much stabler integration environment.</p>",
@@ -397,7 +431,7 @@
 {
 	"name": "Django",
 	"Years": 2,
-	"description": "<p>While I was at MediaClash they transitoned to using Django for all new client work.",
+	"description": "<p>While I was at MediaClash they transitoned to using Django for all new client work. I produced a number of sites using the framework with some requiring moderate to heavy customisation of the admin interface.",
 	"category": "tech",
 	"tags": ["Framework"]
 },
@@ -413,10 +447,11 @@
 {
 	"name": "Zend Framework",
 	"Years": 3,
-	"description": "<p>I had worked with Zend earlier in my career but built up the majority of my experience with it at Nokia.</p>",
+	"description": "<p>Having used parts of Zend 1 for smaller projcets earlier in my career I went on to build up the majority of my experience with it at Nokia. I became very familiar with its dispatch process and the suite of available packages. During this time Zend 2 was released which I explored with the idea of potentially migrating towards but didn't get far past the proposal stage before I moved on from Nokia.</p>",
 	"category": "tech",
 	"tags": ["Framework"]
 },
+
 {
 	"name": "webapp2",
 	"Years": 1,
@@ -428,16 +463,25 @@
 {
 	"name": "FlightJS",
 	"Years": 1,
-	"description": "<p>I first came across this framework while conducting my research duties at Nokia. I used it for an internal project there and have gone on to use it in some personal projects.</p>",
+	"description": "<p>I first came across this framework while conducting my research duties at Nokia. I used it for an internal project there and have gone on to use it in some personal projects, including this one.</p>",
 	"category": "tech",
 	"tags": ["Framework"]
 },
+
+{
+	"name": "AngularJS",
+	"Years": 0.0833,
+	"description": "<p>I've experimented a little with Angular but not produced a full project that uses it.</p>",
+	"category": "tech",
+	"tags": ["Framework"]
+},
+
 {
 	"name": "JQuery",
 	"Years": 6,
 	"description": "<p>The almost ubiquitous Javascript web dev library. My experience has tended towards leveraging JQuery in custom and open source frameworks. As a result I haven't got heavily into authoring and maintaining JQuery plugins but am capable if required.</p>",
 	"category": "tech",
-	"tags": ["Library"]
+	"tags": ["Library", "Web Client"]
 },
 {
 	"name": "MooTools",
@@ -480,9 +524,25 @@
 },
 
 {
-	"name": "openCV",
+	"name": "OpenCV",
 	"Years": 0.25,
-	"description": "<p>I used the C++ version of this library for an Msc project.</p>",
+	"description": "<p>I used the C++ version of this library for an Msc project where I was experimenting with the SURF, SIFT and ASIFT algorithms to identify locations with graffiti.</p>",
+	"category": "tech",
+	"tags": ["Library"]
+},
+
+{
+	"name": "WebTest",
+	"Years": 0.0833,
+	"description": "<p>I've only recently started using this library to test the webapp2 handlers that drive this site. So far it has been a pleasure to use.</p>",
+	"category": "tech",
+	"tags": ["Library"]
+},
+
+{
+	"name": "Beautiful Soup",
+	"Years": 0.0833,
+	"description": "<p>I've used this via the WebTest library to test html output from webapp2 handlers. It's great, if you are doing any screen scraping or anything else that requires parsing html/xml and know Python I'd highly recommend it.</p>",
 	"category": "tech",
 	"tags": ["Library"]
 },
@@ -506,7 +566,7 @@
 {
 	"name": "OpenCL",
 	"Years": 0.25,
-	"description": "<p>Enable the writing of code for parallel execution in heterogeneous environments. I gained some experience in this when I took a module in High Performance Computing as part of an Msc.</p>",
+	"description": "<p>Enableing the writing of code for parallel execution in heterogeneous environments. I gained some experience in this when I took a module in High Performance Computing as part of an Msc.</p>",
 	"category": "tech",
 	"tags": ["HPC"]
 },

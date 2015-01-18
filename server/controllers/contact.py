@@ -8,7 +8,7 @@ import json
 
 class ContactHandler(base.BaseHandler):
     def get(self):
-        template = base.template_engine.get_template('contact/contact.html')
+        template = base.template_engine.get_template('contact/form.html')
 
         self.response.write(template.render(self.data))
 
@@ -24,7 +24,7 @@ class ContactHandler(base.BaseHandler):
             self.data['email'] 		= self.request.get('email').strip()
             self.data['message'] 	= self.request.get('message').strip()
 
-            template = base.template_engine.get_template('contact/contact.html')
+            template = base.template_engine.get_template('contact/form.html')
             self.response.write(template.render(self.data))
 
             return
@@ -44,14 +44,12 @@ class ContactHandler(base.BaseHandler):
             if recaptchaJson['success'] is False:
                 if  'invalid-input-secret' in recaptchaJson['error-codes']:
                     self.sendBadSecretMail(recaptchaSecret)
-                    template = base.template_engine.get_template('contact/contact-misconfig.html')
-                    self.response.write(template.render(self.data))
+                    self.redirect("/contact/misconfigured")
 
                     return
 
                 if 'invalid-input-response' in recaptchaJson['error-codes']:
-                    template = base.template_engine.get_template('contact/contact-not-human.html')
-                    self.response.write(template.render(self.data))
+                    self.redirect("/contact/not-human")
                     
                     return
 
@@ -64,9 +62,7 @@ class ContactHandler(base.BaseHandler):
     	(name, message, email) = (escape(self.request.get('name').strip()), escape(self.request.get('message').strip()), escape(self.request.get('email').strip()))
     	self.sendMessage(name, message, email)
 
-    	self.data['name'] = name
-    	template = base.template_engine.get_template('contact/contact-success.html')
-    	self.response.write(template.render(self.data))
+        self.redirect("/contact/sent")
 
 
     def hasRequiredFields(self, request):

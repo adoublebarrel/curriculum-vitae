@@ -57,8 +57,6 @@ class ImportSkillsHandler(base.BaseHandler):
 				tags=aSkill.get('tags', [])
 			).put()
 
-		logging.warning(aSkill.get('tags',[]))
-		
 		self.response.write("<h1>Import Completed</h1>")
 
 class ImportPersonsHandler(base.BaseHandler):

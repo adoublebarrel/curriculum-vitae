@@ -12,11 +12,18 @@ from google.appengine.ext import testbed
 
 import server.lib.formValidation as formValidation
 from server.controllers.contact import ContactHandler
+from server.controllers.html import ContentHandler
 
 class testContactHandler(unittest.TestCase):
 	def setUp(self):
 		# logging.warning(sys.path)
-		app = webapp2.WSGIApplication([('/contact', ContactHandler)])
+		app = webapp2.WSGIApplication([
+    		webapp2.Route('/contact', handler='server.controllers.contact.ContactHandler', name='contact-form'),
+    		webapp2.Route('/contact/sent', handler='server.controllers.html.ContentHandler', name='contact-sent'),
+    		webapp2.Route('/contact/not-human', handler='server.controllers.html.ContentHandler', name='contact-nothuman'),
+    		webapp2.Route('/contact/misconfigured', handler='server.controllers.html.ContentHandler', name='contact-misconfig')
+		])
+
 		self.testApp = webtest.TestApp(app)
 		self.testbed = testbed.Testbed()
 		self.testbed.activate()
@@ -105,7 +112,7 @@ class testContactHandler(unittest.TestCase):
 		url_opener = urllib2.build_opener(mockHandler)
 		urllib2.install_opener(url_opener)
 
-		response = self.testApp.post('/contact', self.goodPost, extra_environ=dict(REMOTE_ADDR='127.0.0.1'))
+		response = self.testApp.post('/contact', self.goodPost, )
 
 		(recaptchaUrl, recapthaQueryArgs) = mockHandler.full_url.split('?')
 		recapthaQueryArgs = urlparse.parse_qs(recapthaQueryArgs)
@@ -117,7 +124,9 @@ class testContactHandler(unittest.TestCase):
 		
 		# request.client_addr appears to be unavailble in GAE live environment
 		# self.assertEqual(recapthaQueryArgs['remoteip'][0], '127.0.0.1')
+		self.assertEqual(response.status_int, 302)
 
+		response = response.follow()
 		self.assertMessageSent(response)
 
 	def testInvalidRecapthaSecret(self):
@@ -133,6 +142,9 @@ class testContactHandler(unittest.TestCase):
 		self.assertEqual('CV: Invalid recaptcha secret', messages[0].subject)
 		self.assertEqual('Google Recaptcha says the secret "' + self.recaptchaSecret + '" is invalid. Contact form is broken.', messages[0].body.decode())
 
+		self.assertEqual(response.status_int, 302)
+
+		response = response.follow()
 		self.assertEqual('That Could Of Gone Better...', response.html.h1.string)
 
 
@@ -141,11 +153,14 @@ class testContactHandler(unittest.TestCase):
 		url_opener = urllib2.build_opener(mockHandler)
 		urllib2.install_opener(url_opener)
 
-		response = self.testApp.post('/contact', self.goodPost, extra_environ=dict(REMOTE_ADDR='127.0.0.1'))
+		response = self.testApp.post('/contact', self.goodPost)
 
 		# We don't want to penalise users because recaptcha is down
 		# so just send the mail and we'll live with any spam received
 		# until recaptcha recovers
+		self.assertEqual(response.status_int, 302)
+
+		response = response.follow()
 		self.assertMessageSent(response)
 
 	def testRecaptchaResponseInvalid(self):
@@ -157,7 +172,10 @@ class testContactHandler(unittest.TestCase):
 
 		messages = self.mail_stub.get_sent_messages(to='alex.bransbywilliams@gmail.com')
 		self.assertEqual(0, len(messages))
+		
+		self.assertEqual(response.status_int, 302)
 
+		response = response.follow()
 		self.assertEqual('Humans Only', response.html.h1.string)
 
 
