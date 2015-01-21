@@ -23,7 +23,7 @@
 		<h2>Technical Skills</h2>
 		<ul>
 		{% for skill in tech_skills %}
-			<li>{{skill.name}}</li>
+			<li>{{skill.name|escape}}</li>
 		{% endfor %}
 		</ul>
 	</div>
@@ -32,7 +32,7 @@
 		<h2>Development Methods</h2>
 		<ul>
 		{% for method in dev_methods %}
-			<li>{{method.name}}</li>
+			<li>{{method.name|escape}}</li>
 		{% endfor %}
 		</ul>
 	</div>

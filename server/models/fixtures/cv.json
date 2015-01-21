@@ -1,12 +1,26 @@
 [{
-	"name": "Senior Digital Frontend Developer",
+	"name": "Senior Digital Developer",
 	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in a breadth and depth of technical knowledge which is second to none. A confident, proactive approach to problem solving naturally results in taking a leading role in getting products delivered. The combination of the two makes a senior developer who is a strong asset to any team.</p>",
 	"tech_skills": ["CSS & HTML", "Python", "Javascript", "PHP", "Git"],
 	"dev_methods": ["Test Driven Development (TDD)", "Agile", "Scrum", "Kanban"]
 },
 {
-	"name": "Senior Digital Developer",
+	"name": "Senior Digital Frontend Developer",
 	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in a breadth and depth of technical knowledge which is second to none. A confident, proactive approach to problem solving naturally results in taking a leading role in getting products delivered. The combination of the two makes a senior developer who is a strong asset to any team.</p>",
 	"tech_skills": ["CSS & HTML", "SASS", "Javascript", "GruntJS", "Python", "PHP", "MustacheJS", "NodeJS", "Jasmine", "Bower", "PhantomJS", "CasperJS", "Git"],
 	"dev_methods": ["Responsive Web Design", "Web Accessibility", "Agile", "Scrum", "Kanban"]
+},
+
+{
+	"name": "Javascript Developer",
+	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in a breadth and depth of technical knowledge. Takes a confident proactive approach to problem solving that helps get things done. Experience of using AngularJS in the past for some small internal projects while with Nokia should stand in good stead for this project.</p>",
+	"tech_skills": ["Javascript", "JQuery", "AngularJS", "CSS & HTML", "Bootstrap", "Jasmine", "Karma", "Git", "GruntJS"],
+	"dev_methods": ["Agile", "Responsive Web Design"]
+},
+
+{
+	"name": "Javascript Developer",
+	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in a breadth and depth of technical knowledge. Takes a confident proactive approach to problem solving that helps get things done. Experience of using AngularJS in the past for some small internal projects while with Nokia should stand in good stead for this project.</p>",
+	"tech_skills": ["Javascript", "JQuery", "AngularJS", "CSS & HTML", "Jasmine", "Karma", "Git", "GruntJS", "FlightJS", "JSLint", "Less CSS"],
+	"dev_methods": ["Agile", "Responsive Web Design", "Test Driven Development (TDD)"]
 }]

@@ -49,7 +49,7 @@
 	<tbody>
 	{% for skill in skills %}
 	<tr {% if 'Programming Language' not in skill.tags %}class="hidden"{% endif %} data-tags="{{ skill.tags|join(',') }}">
-		<td class="name"><a href="/skills/{{ skill.key.urlsafe() }}">{{ skill.name }}</a></td>
+		<td class="name"><a href="/skills/{{ skill.key.urlsafe() }}">{{ skill.name|escape }}</a></td>
 		<td class="years"><span class="badge">{{ (skill.months/12)|round|int }}</span></td>
 	</tr>
 	{% endfor %}

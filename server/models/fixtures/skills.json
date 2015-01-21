@@ -11,7 +11,7 @@
 },
 
 {
-	"name": "CSS &amp; HTML",
+	"name": "CSS & HTML",
 	"Years": 14,
 	"complement": "includes Twitter Bootstrap, HTML5 Boiler plate, Responsive Design, Mobile First, SMACSS",
 	"description": "<p>A constant since my first web job back in 1999, I've kept my knowledge of these core web technologies current my whole career. In my last position I championed a move towards responsive design and the use of the latest and emerging standards.</p><p>I have direct experience in championing mobile first approaches coupled with responsive design in my last role. I also tend to favour graceful degradation, where the latest browser features are taken advantage of as a starting point for a design, rather than progressive enhancement. However choice of approach when it comes to web design is very much dependent on the type of product, target audience and budget. My experience is that it's best to adopt the combination of approaches that best fit the job at hand.</p>",
@@ -359,11 +359,35 @@
 },
 
 {
+	"name": "Bootstrap",
+	"Years": 3,
+	"description": "<p>A great web framework for kickstarting projects. Its last release featured support out of the box for projects using responsive design, mobile first approaches. I've made frequent use of this framework for internal projects while I was at Nokia and have continued to use it for personal projects including this site.</p>",
+	"category": "tech",
+	"tags": ["Web Client", "Framework"]
+},
+
+{
 	"name": "HandlebarsJS",
 	"Years": 2,
 	"description": "<p>Advertising itself as MustacheJS on steroids we swapped this in to replace MustacheJS while I was with Nokia.",
 	"category": "tech",
 	"tags": ["Web Client", "Library"]
+},
+
+{
+	"name": "RequireJS",
+	"Years": 2,
+	"description": "<p>A boon to modular Javascript development, a pattern that has been codified in the ECMAScript 6 standard which is due to be ratified and become available in browsers this year. I've used it in a number of projects, including this site.</p>",
+	"category": "tech",
+	"tags": ["Web Client", "Library"]
+},
+
+{
+	"name": "Karma",
+	"Years": 0.25,
+	"description": "<p>A testrunner that runs tests in real browsers I've most recently used it in combination with Jasmine to test the Javascript that this site uses.</p>",
+	"category": "tech",
+	"tags": ["Web Client"]
 },
 
 {
@@ -471,9 +495,17 @@
 {
 	"name": "AngularJS",
 	"Years": 0.0833,
-	"description": "<p>I've experimented a little with Angular but not produced a full project that uses it.</p>",
+	"description": "<p>I've used Angular in a few internal projects to get a feel for it.</p>",
 	"category": "tech",
-	"tags": ["Framework"]
+	"tags": ["Web Client", "Framework"]
+},
+
+{
+	"name": "JSLint",
+	"Years": 2,
+	"description": "<p>In the last project I worked on we used JSLint to help keep code quality high.</p>",
+	"category": "tech",
+	"tags": ["Web Client", "Library"]
 },
 
 {
