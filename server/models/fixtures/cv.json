@@ -13,14 +13,22 @@
 
 {
 	"name": "Javascript Developer",
-	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in a breadth and depth of technical knowledge. Takes a confident proactive approach to problem solving that helps get things done. Experience of using AngularJS in the past for some small internal projects while with Nokia should stand in good stead for this project.</p>",
+	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in great breadth and depth of technical knowledge. Takes a confident proactive approach to problem solving that helps get things done. Experience of using AngularJS in the past for some small internal projects while with Nokia should stand in good stead for this project.</p>",
 	"tech_skills": ["Javascript", "JQuery", "AngularJS", "CSS & HTML", "Bootstrap", "Jasmine", "Karma", "Git", "GruntJS"],
 	"dev_methods": ["Agile", "Responsive Web Design"]
 },
 
 {
 	"name": "Javascript Developer",
-	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in a breadth and depth of technical knowledge. Takes a confident proactive approach to problem solving that helps get things done. Experience of using AngularJS in the past for some small internal projects while with Nokia should stand in good stead for this project.</p>",
-	"tech_skills": ["Javascript", "JQuery", "AngularJS", "CSS & HTML", "Jasmine", "Karma", "Git", "GruntJS", "FlightJS", "JSLint", "Less CSS"],
+	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in a great breadth and depth of technical knowledge. Takes a confident proactive approach that helps get things done. Familiar with Agile methods including Scrum, Kanban, Behaviour Driven Development (BDD) and Test Driven Development (TDD). Has produced work as part of a Service Orientated Architecture (SOA) within a continuous integration environment.</p>",
+	"tech_skills": ["Javascript", "JQuery", "AngularJS", "CSS & HTML", "Jasmine", "Karma", "Git", "GruntJS", "JSLint", "Less CSS", "NodeJS"],
+	"dev_methods": ["Agile", "Responsive Web Design", "Test Driven Development (TDD)", "Scrum", "Kanban"]
+},
+
+{
+	"name": "Frontend Developer",
+	"lead_in": "<p>A veteran who has produced web services and clients for over 13 years, resulting in great breadth and depth of technical knowledge. Takes a confident proactive approach that helps get things done. Familiar with Agile methods including Scrum, Kanban, Behaviour Driven Development (BDD) and Test Driven Development (TDD). Has produced work as part of a Service Orientated Architecture (SOA) within a continuous integration environment.</p>",
+	"tech_skills": ["Javascript", "JQuery", "AngularJS", "CSS & HTML", "Jasmine", "Git", "FlightJS", "NodeJS", "PHP", "Zend Framework", "Python", "Django"],
 	"dev_methods": ["Agile", "Responsive Web Design", "Test Driven Development (TDD)"]
+
 }]

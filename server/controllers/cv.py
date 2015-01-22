@@ -15,10 +15,11 @@ class CvListHandler(base.BaseHandler):
 		self.response.write(template.render(self.data))
 
 class CvHandler(base.BaseHandler):
-	def get(self, name):
+	def get(self, key):
 		template = base.template_engine.get_template('cv/cv.html')
+		cv_key = ndb.Key(urlsafe=key)
 
-		self.data['cv'] = Cv.query(Cv.name_uri == name).get()
+		self.data['cv'] = cv_key.get()
 		self.data['tech_skills'] = Skill.query(Skill.key.IN(self.data['cv'].tech_skills)).order(Skill.name)
 		self.data['dev_methods'] = Skill.query(Skill.key.IN(self.data['cv'].dev_methods)).order(Skill.name)
 		self.data['showFull'] = False
@@ -26,12 +27,11 @@ class CvHandler(base.BaseHandler):
 		self.response.write(template.render(self.data))
 
 class FullCvHandler(base.BaseHandler):
-	def get(self, name):
+	def get(self, key):
 		template = base.template_engine.get_template('cv/cv.html')
+		cv_key = ndb.Key(urlsafe=key)
 
-		logging.warning('full');
-
-		self.data['cv'] = Cv.query(Cv.name_uri == name).get()
+		self.data['cv'] = cv_key.get()
 		self.data['tech_skills'] = Skill.query(Skill.key.IN(self.data['cv'].tech_skills)).order(Skill.name)
 		self.data['dev_methods'] = Skill.query(Skill.key.IN(self.data['cv'].dev_methods)).order(Skill.name)
 		self.data['showFull'] = True

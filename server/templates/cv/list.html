@@ -9,7 +9,7 @@
 {% block content %}
 	<ul id="cv-list">
 	{% for aCv in cv %}
-		<li><a href="/cv/{{aCv.name_uri}}">{{aCv.name}}</a></li>
+		<li><a href="/cv/{{aCv.key.urlsafe() }}">{{aCv.name}}</a></li>
 	{% endfor %}
 	</ul>
 {% endblock %}

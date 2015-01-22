@@ -393,7 +393,7 @@
 {
 	"name": "NodeJS",
 	"Years": 0,
-	"description": "<p>My main experience with Node is using it to execute build steps for web clients. I have helped debug/advise on next steps for a third party Node app that my team had inherited but that was a one off.</p>",
+	"description": "<p>Having previously used Node just to execute build steps for web clients I've recently started experimenting with it for a personal project after completing the learnyounode exercises available at nodeschool.io.</p><p>I have also helped debug a third party Node app that my team had inherited in pressured circumstances.</p>",
 	"will": "Find my experience and JS knowledge means I pick NodeJS up quickly",
 	"wont": "Be able to just drop me in to a NodeJS project and expect immediate results",
 	"category": "tech",

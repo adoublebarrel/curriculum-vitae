@@ -12,8 +12,8 @@ app = webapp2.WSGIApplication([
     webapp2.Route('/contact/not-human', handler='server.controllers.html.ContentHandler', name='contact-nothuman'),
     webapp2.Route('/contact/misconfigured', handler='server.controllers.html.ContentHandler', name='contact-misconfig'),
     webapp2.Route('/cv', handler='server.controllers.cv.CvListHandler', name='cv-list'),
-    webapp2.Route('/cv/<name:[\w\-]+\w+>/full', handler='server.controllers.cv.FullCvHandler', name='full-cv'),
-    webapp2.Route('/cv/<name:[\w\-]+\w+>', handler='server.controllers.cv.CvHandler', name='cv'),
+    webapp2.Route('/cv/<key:[\w\-]+\w+>/full', handler='server.controllers.cv.FullCvHandler', name='full-cv'),
+    webapp2.Route('/cv/<key:[\w\-]+\w+>', handler='server.controllers.cv.CvHandler', name='cv'),
     webapp2.Route('/copyright', handler='server.controllers.html.ContentHandler', name='copyright'),
     webapp2.Route('/privacy-policy', handler='server.controllers.html.ContentHandler', name='privacyPolicy'),
     webapp2.Route('/cookie-policy', handler='server.controllers.html.ContentHandler', name='cookiePolicy')
