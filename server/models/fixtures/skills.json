@@ -14,7 +14,7 @@
 	"name": "CSS & HTML",
 	"Years": 14,
 	"complement": "includes Twitter Bootstrap, HTML5 Boiler plate, Responsive Design, Mobile First, SMACSS",
-	"description": "<p>A constant since my first web job back in 1999, I've kept my knowledge of these core web technologies current my whole career. In my last position I championed a move towards responsive design and the use of the latest and emerging standards.</p><p>I have direct experience in championing mobile first approaches coupled with responsive design in my last role. I also tend to favour graceful degradation, where the latest browser features are taken advantage of as a starting point for a design, rather than progressive enhancement. However choice of approach when it comes to web design is very much dependent on the type of product, target audience and budget. My experience is that it's best to adopt the combination of approaches that best fit the job at hand.</p>",
+	"description": "<p>A constant since my first web job back in 1999, I've kept my knowledge of these core web technologies current my whole career. In my last position I championed a move towards responsive web design and the use of the latest and emerging standards.</p><p>I have direct experience in championing mobile first approaches coupled with responsive design in my last role. I also tend to favour graceful degradation, where the latest browser features are taken advantage of as a starting point for a design, rather than progressive enhancement. However choice of approach when it comes to web design is very much dependent on the type of product, target audience and budget. My experience is that it's best to adopt the combination of approaches that best fit the job at hand.</p>",
 	"will": "Want me to help your designers achieve great looking web based products",
 	"wont": "Want me to make create assets for your site in Photoshop/Fireworks/etc.",
 	"category": "tech",
@@ -25,7 +25,7 @@
 	"name": "Javascript",
 	"Years": 14,
 	"complement": "JQuery, AngularJS, FlightJS, SoundManager, Jplayer",
-	"description": "<p>I've worked with Javascript my whole career but it was at Nokia that I transitioned from using it for simple interactions/JQuery usage to having a full appreciation of its strengths and weaknesses. Whether it's writing just plain Javascript or leveraging the plethora of libraries and frameworks that are available, you wont find many people with more experience.</p><p>While I've worked with JS my entire career my knowledge of it as a language heavily accelerated during my time at Nokia. If you're doing more than just changing CSS classes I consider Crockfords Javascript the Good Parts required reading and highly recommend Addy Osmanis Learnig Javascript design patterns. I still consider JQuery to be essential if you want your product to work on a wide number of browsers with a minimum of fuss. If a framework is being used I tend to prefer lighter ones that augment/work with the DOM model we have currently such as FlightJS rather than ones which enforce their own model such as AngularJS. However there are situations where angular is the perfect tool for the job.</p><p>I've tinkered with NodeJS but didn't consider it ready for production environments where %99.99 uptime Service Level Agreements are in place. If you're looking for someone to help with a NodeJS based product then I would be very interested in the work and how you are finding its' stability.</p>",
+	"description": "<p>I've worked with Javascript my whole career most recently producing a rich interactive single page application for streaming music. Whether it's writing just plain Javascript or leveraging the plethora of libraries and frameworks that are available, you wont find many people with more experience.</p><p>While I've worked with JS my entire career my knowledge of it as a language heavily accelerated during my time at Nokia. If you're doing more than just changing CSS classes I consider Crockfords Javascript the Good Parts required reading and highly recommend Addy Osmanis Learnig Javascript design patterns. I still consider JQuery to be essential if you want your product to work on a wide number of browsers with a minimum of fuss. If a framework is being used I tend to prefer lighter ones that augment/work with the DOM model we have currently such as FlightJS rather than ones which enforce their own model such as AngularJS. However there are situations where angular is the perfect tool for the job.</p><p>I've tinkered with NodeJS but didn't consider it ready for production environments where %99.99 uptime Service Level Agreements are in place. If you're looking for someone to help with a NodeJS based product then I would be very interested in the work and how you are finding its' stability.</p>",
 	"will": "Want me to consult, lead and/or help produce your JS codebase.",
 	"wont": "Want to miss out on having someone this experienced on your team.",
 	"category": "tech",
@@ -154,7 +154,7 @@
 {
 	"name": "Windows",
 	"Years": 14,
-	"description": "<p>What is there to say, it's Windows right?</p><p>My experience with Windows systems have been a limited constant throghout my career. I've known enough to be able to troubleshoot problems as part of an on call team but knowing that I have the backup of a more knowledgeable colleague if required. I've worked with a number of Windows based development environments over the years, generally when managing my own Linux workstation/laptop isn't an option. This means that I am familiar with the requisite tools such as remote desktop to get to other Windows machines and Putty to be able to get onto other Linux machines. This also works the other way round, that is I am used to establishing remote desktop sessions from Linux workstations. It also means that I have come across and worked around fun issues in a mixed environment such as version control systems getting confused because Windows files are case insensitive While *nix files are case sensitive. Always fun.</p><p>I did spend about a year as a C# developer in the context of producing Sitecore based web sites but that was some time ago.</p>",
+	"description": "<p>Not my first choice for a development environment when producing Linuk based services but I have used it as my workstation in the past.</p><p>My experience with Windows systems have been a limited constant throghout my career. I've known enough to be able to troubleshoot problems as part of an on call team but knowing that I have the backup of a more knowledgeable colleague if required. I've worked with a number of Windows based development environments over the years, generally when managing my own Linux workstation/laptop isn't an option. This means that I am familiar with the requisite tools such as remote desktop to get to other Windows machines and Putty to be able to get onto other Linux machines. This also works the other way round, that is I am used to establishing remote desktop sessions from Linux workstations. It also means that I have come across and worked around fun issues in a mixed environment such as version control systems getting confused because Windows files are case insensitive While *nix files are case sensitive. Always fun.</p><p>I did spend about a year as a C# developer in the context of producing Sitecore based web sites but that was some time ago.</p>",
 	"will": "Be able to trust me to find my way around a Windows based environment and turn stuff on and off again.",
 	"wont": "Want me to troubleshoot complicated problems with IIS, SQL Server or other Microsoft products.",
 	"category": "tech",
@@ -377,7 +377,7 @@
 {
 	"name": "RequireJS",
 	"Years": 2,
-	"description": "<p>A boon to modular Javascript development, a pattern that has been codified in the ECMAScript 6 standard which is due to be ratified and become available in browsers this year. I've used it in a number of projects, including this site.</p>",
+	"description": "<p>An essential library for Javascript although it now has competition in the form of Browserify I've used it in a number of projects for modular dependencies and minification, including this site.</p>",
 	"category": "tech",
 	"tags": ["Web Client", "Library"]
 },
@@ -393,7 +393,7 @@
 {
 	"name": "NodeJS",
 	"Years": 0,
-	"description": "<p>Having previously used Node just to execute build steps for web clients I've recently started experimenting with it for a personal project after completing the learnyounode exercises available at nodeschool.io.</p><p>I have also helped debug a third party Node app that my team had inherited in pressured circumstances.</p>",
+	"description": "<p>After helping to debug a slightly broken Node application in my last role I've since completed the core tutorials at nodeschool.io giving me a basic competency with it, albeit backed with years of client side Javascript experience.</p><p>I have also helped debug a third party Node app that my team had inherited in pressured circumstances.</p>",
 	"will": "Find my experience and JS knowledge means I pick NodeJS up quickly",
 	"wont": "Be able to just drop me in to a NodeJS project and expect immediate results",
 	"category": "tech",
@@ -487,7 +487,7 @@
 {
 	"name": "FlightJS",
 	"Years": 1,
-	"description": "<p>I first came across this framework while conducting my research duties at Nokia. I used it for an internal project there and have gone on to use it in some personal projects, including this one.</p>",
+	"description": "<p>I first came across this framework while conducting my research duties at Nokia. I used it for an internal project there and have gone on to use it in some personal projects, including this site.</p>",
 	"category": "tech",
 	"tags": ["Framework"]
 },
@@ -495,7 +495,7 @@
 {
 	"name": "AngularJS",
 	"Years": 0.0833,
-	"description": "<p>I've used Angular in a few internal projects to get a feel for it.</p>",
+	"description": "<p>I've used Angular for a few CRUD based internal projects in my last role giving me basic familiarity backed by my years of experience with Javascript.</p>",
 	"category": "tech",
 	"tags": ["Web Client", "Framework"]
 },
@@ -678,7 +678,15 @@
 {
 	"name": "Web Accessibility",
 	"Years": 10,
-	"description": "<p>I started my career working on projects for various higher education institutions and government departments where accessibility was considered a priority. In more recent years accessibility hasn't been as strong a driver for the commercial companies I've worked for. As a result my accessibility methodolgy is a little rusty but I am aware of ensuring web clients are usable via keyboard only, that they are readable in gray-scale, WAI-ARIA and screen reader testing.</p>",
+	"description": "<p>I started my career working on projects for various higher education institutions and government departments where accessibility was considered a priority. In more recent years accessibility hasn't been as strong a driver for the commercial companies I've worked for. As a result my accessibility methodology is a little rusty but I am aware of ensuring web clients are usable via keyboard only, that they are readable in gray-scale, WAI-ARIA and screen reader testing.</p>",
+	"category": "method",
+	"tags": []
+},
+
+{
+	"name": "Continuous Integration",
+	"Years": 3,
+	"description": "<p>When I joined Nokia the Bristol office was transitioning from big bang releases to a continuous integration approach. After working in such an environments for 3 years I gained a good working knowledge of what behaviours need to be in place to make such an approach work as well as a number of pieces of technology that support these behaviours.</p>",
 	"category": "method",
 	"tags": []
 },
@@ -686,7 +694,7 @@
 {
 	"name": "Mentoring",
 	"Years": 3,
-	"description": "<p>I have strong mentoring experience. At Nokia I was heavily involved with the local student placement programming and took direct for ensuring that students who joined my team had a structured and smooth introduction. As a senior engineer at Nokia and a technical lead I also mentored a number of my fellow team members in specific areas.</p>",
+	"description": "<p>I have strong mentoring experience. At Nokia I was heavily involved with the local student placement programming and took direct responsability for ensuring that students who joined my team had a structured and smooth introduction. As a senior engineer at Nokia and a technical lead I also mentored a number of my fellow team members in specific areas.</p>",
 	"category": "leadership",
 	"tags": []
 },
@@ -718,7 +726,7 @@
 {
 	"name": "Interest Groups",
 	"Years": 1,
-	"description": "<p>As I settled in at Nokia I realised that a number of my colleagues had web development backgrounds but many were spread across teams working on phone clients. I setup a group that met on a weekly basis during a lunch hour that acted as a space for interested colleagues to research, learn and share various web development skills. Overall it was a positive experience and core memebers of this group and I went on to form the team that produced <a href=\"www.mixrad.io\">www.mixrad.io</a>.</p>",
+	"description": "<p>As I settled in at Nokia I realised that a number of my colleagues had web development backgrounds but many were spread across teams working on phone clients. I setup a group that met on a weekly basis during a lunch hour that acted as a space for interested colleagues to research, learn and share various web development skills. Overall it was a positive experience and core memebers of this group and I went on to form the team that produced <a href=\"http://www.mixrad.io\">www.mixrad.io</a>.</p>",
 	"category": "leadership",
 	"tags": []
 },
@@ -734,7 +742,7 @@
 {
 	"name": "Inter-Team/Departmental Relationships",
 	"Years": 3,
-	"description": "<p>A key element to large organisations working well are good relationships between its teams and departments. While I wasn't shy in making contact with new colleagues in different teams to start with, working at Nokia took it to new places. Literally. I've worked with teams located in Finland, the U.S.A. and India using a variety of mediums of communication. While distance and time zones make it more challenging I've found that my friendly, professional and firm demeanor helps build positive relationships.</p>",
+	"description": "<p>A key element to large organisations working well are good relationships between its teams and departments. While I wasn't shy in making contact with new colleagues in different teams to start with, working at Nokia took it to new places. Literally. I've worked with teams located in Finland, the U.S.A. and India using a variety of mediums of communication. While distance and time zones make it more challenging I've found that my friendly, professional demeanor helps build positive relationships.</p>",
 	"category": "leadership",
 	"tags": []
 },

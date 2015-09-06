@@ -1,6 +1,6 @@
-"use strict";
 
 describeComponent('component/navbar-ui', function() {
+	'use strict';
 	beforeEach(function() {
 		this.setupComponent(window.__html__['test/fixtures/navbar-ui/nav.html'], {
 			buttonSelector: '.navbar-toggle',
@@ -9,16 +9,16 @@ describeComponent('component/navbar-ui', function() {
 		});
 	});
 
-	describe("when the nav button is clicked", function() {
-		it("removes the toggleClass if it is present", function() {
+	describe('when the nav button is clicked', function() {
+		it('removes the toggleClass if it is present', function() {
 			this.component.select('buttonSelector').click();
 			expect(this.component.select('navbarSelector')).not.toHaveClass('collapse');
 		});
 
-		it("adds the toggleClass if it isn't present", function() {
+		it('adds the toggleClass if it isn\'t present', function() {
 			this.component.select('buttonSelector').click().click();
 			expect(this.component.select('navbarSelector')).toHaveClass('collapse');
 		});
 
 	});
-})
+});
