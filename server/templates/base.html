@@ -3,82 +3,75 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Bransby-Williams: Senior Software Engineer</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    
-    <link rel="stylesheet" href="/css/main.css">
+     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.light_blue-orange.min.css" />
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
     {% block head %}
     {% endblock %}
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigiation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/"><span id="A">A</span><span id="B">B</span><span id='hyphen'>&hyphen;</span><span id="W">W</span></a>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+
+      <header class="mdl-layout__header">
+
+        <div class="mdl-layout-icon"></div>
+
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Alexander Bransby-Williams</span>
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect" role="navigiation">
+          <a class="mdl-layout__tab home{% if uriPath == ''%} is-active{% endif %}" href="#scroll-tab-home">Home</a>
+          <a class="mdl-layout__tab tech{% if uriPath == 'technical-skills'%} is-active{% endif %}" href="#scroll-tab-skills">Tech{% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a>
+          <a class="mdl-layout__tab methods {% if uriPath == 'development-methods'%} is-active{% endif %}" href="#scroll-tab-methods">Dev</a>
+          <a class="mdl-layout__tab employment{% if uriPath == 'employment'%} is-active{% endif %}" href="#scroll-tab-employment">Employment</a>
+          <!-- <li><a href="/demos">Demos</a></li> -->
+          <!-- <li><a href="/articles">Articles</a></li> -->
+        </div>
+      </header>
+
+      <main id="content" class="mdl-layout__content">
+
+          <section class="mdl-layout__tab-panel is-active" id="scroll-tab-home">
+            <div class="page-content">
+              <h1>Home</h1>
             </div>
+          </section>
 
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li {% if uriPath == 'contact'%}class="active"{% endif %}><a href="/contact">Contact {% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                    <li {% if uriPath == 'technical-skills'%}class="active"{% endif %}><a href="/technical-skills">Tech {% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                    <li {% if uriPath == 'development-methods'%}class="active"{% endif %}><a href="/development-methods">Dev Methods {% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                    <li {% if uriPath == 'leadership'%}class="active"{% endif %}><a href="/leadership">Leadership {% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                    <li {% if uriPath == 'attributes'%}class="active"{% endif %}><a href="/attributes">Attributes {% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                    <li {% if uriPath == 'employment'%}class="active"{% endif %}><a href="/employment">Employment {% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                    <li {% if uriPath == 'cv'%}class="active"{% endif %}><a href="/cv">CV&rsquo;s {% if uriPath == 'contact'%}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                    <!-- <li><a href="/demos">Demos</a></li> -->
-                    <!-- <li><a href="/articles">Articles</a></li> -->
-                </ul>
+          <section class="mdl-layout__tab-panel" id="scroll-tab-skills">
+            <div class="page-content inject">
+              <h1>Skills</h1>
             </div>
-        </div>
-    </nav>
+          </section>
 
-    <div id="content" class="container">
+          <section class="mdl-layout__tab-panel" id="scroll-tab-methods">
+            <div class="page-content inject">
+              <h1>Methods</h1>
+            </div>
+          </section>
 
-        <div class="page-header">
-            {% block header %}
-            <h1>Whoops!</h1>
-            {% endblock %}
-        </div>
+          <section class="mdl-layout__tab-panel" id="scroll-tab-employment">
+            <div class="page-content inject">
+              <h1>Employment</h1>
+            </div>
+          </section>
 
+      </main>
 
-        {% block content %}
-        <p>Looks like Alex hasn't plugged in the content for this page yet! Don't worry, I'll email to let him know.</p>
-        {% endblock %}
-
+      <nav class="navbar navbar-default navbar-static-bottom" role"secondary-navigation">
+          <div class="container">
+              <ul class="nav navbar-nav navbar-right">
+                  <li {% if uriPath == 'privacy-policy'%}class="active"{% endif %}><a href="/privacy-policy">Privacy Policy</a></li>
+                  <li {% if uriPath == 'cookie-policy'%}class="active"{% endif %}><a href="/cookie-policy">Cookie Policy</a></li>
+                  <li {% if uriPath == 'copyright'%}class="active"{% endif %}><a href="/copyright">Copyright</a></li>
+                  <li><a style="padding-top: 10px; padding-bottom: 5px;" href="https://github.com/adoublebarrel"><img src="/img/GitHub-Mark-32px.png"></a></li>
+              </ul>
+          </div>
     </div>
-
-    <nav class="navbar navbar-default navbar-static-bottom" role"secondary-navigation">
-        <div class="container">
-            <ul class="nav navbar-nav navbar-right">
-                <li {% if uriPath == 'privacy-policy'%}class="active"{% endif %}><a href="/privacy-policy">Privacy Policy</a></li>
-                <li {% if uriPath == 'cookie-policy'%}class="active"{% endif %}><a href="/cookie-policy">Cookie Policy</a></li>
-                <li {% if uriPath == 'copyright'%}class="active"{% endif %}><a href="/copyright">Copyright</a></li>
-                <li><a style="padding-top: 10px; padding-bottom: 5px;" href="https://github.com/adoublebarrel"><img src="/img/GitHub-Mark-32px.png"></a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Latest compiled and minified JavaScript -->
 
     {% block js %}
     {% endblock %}

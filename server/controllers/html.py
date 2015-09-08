@@ -7,7 +7,7 @@ class ContentHandler(base.BaseHandler):
 
     	if name.find('-') > -1:
     		name = name.replace('-', '/')
-        	
+
         template = base.template_engine.get_template(name + '.html')
 
         self.response.write(template.render(self.data))

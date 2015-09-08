@@ -1,0 +1,552 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@font-face {
+  font-family: "And Black";
+  src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
+       url("fonts/and_black.woff") format('woff'),
+       url("fonts/and_black.ttf") format('truetype');
+}
+
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.abw-search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.abw-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.abw-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+
+.abw-mobile-title {
+  display: none !important;
+}
+
+
+.abw-logo-image {
+  height: 28px;
+  width: 140px;
+}
+
+
+.abw-header {
+  overflow: visible;
+  background-color: white;
+}
+
+  .abw-header .material-icons {
+    color: #767777 !important;
+  }
+
+  .abw-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+  .abw-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .abw-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .abw-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+  }
+
+  .abw-search-box.is-focused ~ .abw-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+
+
+  .abw-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+    .abw-navigation .mdl-navigation__link:hover {
+      border-bottom: 4px solid #8bc34a;
+    }
+
+  .abw-search-box {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .abw-more-button {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+
+
+.abw-drawer {
+  border-right: none;
+}
+
+  .abw-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+
+  .abw-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
+
+  .abw-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #8bc34a;
+  }
+
+  .abw-drawer .mdl-layout-title {
+    position: relative;
+    background: #6ab344;
+    height: 160px;
+  }
+
+    .abw-drawer .abw-logo-image {
+      position: absolute;
+      bottom: 16px;
+    }
+
+.abw-be-together-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/slide01.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
+.abw-font {
+  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #767777;
+  font-weight: 300;
+}
+
+.abw-slogan {
+  font-size: 60px;
+  padding-top: 160px;
+}
+
+.abw-sub-slogan {
+  font-size: 21px;
+  padding-top: 24px;
+}
+
+.abw-create-character {
+  font-size: 21px;
+  padding-top: 400px;
+}
+
+  .abw-create-character a {
+    text-decoration: none;
+    color: #767777;
+    font-weight: 300;
+  }
+
+.abw-screen-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.abw-screens {
+  text-align: right;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.abw-screen {
+  text-align: center;
+}
+
+.abw-screen .abw-link {
+  margin-top: 16px;
+  display: block;
+  z-index: 2;
+}
+
+.abw-image-link {
+  text-decoration: none;
+}
+
+.abw-wear {
+  display: inline-block;
+  width: 160px;
+  margin-right: 32px;
+}
+
+  .abw-wear .abw-screen-image {
+    width: 40%;
+    z-index: 1;
+  }
+
+
+.abw-phone {
+  display: inline-block;
+  width: 64px;
+  margin-right: 48px;
+}
+
+  .abw-phone .abw-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+
+.abw-tablet {
+  display: inline-block;
+  width: 110px;
+  margin-right: 64px;
+}
+
+  .abw-tablet .abw-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .abw-tablet .abw-link {
+    display: block;
+    z-index: 2;
+  }
+
+
+.abw-tv {
+  display: inline-block;
+  width: 300px;
+  margin-right: 80px;
+}
+
+  .abw-tv .abw-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+
+.abw-auto {
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+}
+
+  .abw-auto .abw-screen-image {
+    display: block;
+    height: 300px;
+    z-index: 1;
+  }
+
+
+.abw-wear-section {
+  position: relative;
+  background: url('images/wear.png') center top no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.abw-wear-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #37474f;
+}
+
+.abw-wear-band-text {
+  max-width: 800px;
+  margin-left: 25%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+  .abw-wear-band-text p {
+    padding-top: 8px;
+  }
+
+.abw-link {
+  text-decoration: none;
+  color: #8bc34a !important;
+}
+
+  .abw-link:hover {
+    color: #7cb342 !important;
+  }
+
+  .abw-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+.abw-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+  .abw-alt-link:hover {
+    color: #00bfa5 !important;
+  }
+
+  .abw-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+.abw-customized-section {
+  text-align: center;
+}
+
+.abw-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+  .abw-customized-section-text p {
+    padding-top: 16px;
+  }
+
+.abw-customized-section-image {
+  background: url('images/devices.jpg') center top no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.abw-more-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .abw-more-section .abw-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+  }
+
+.abw-card-container {
+}
+
+  .abw-card-container .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+  }
+
+    .abw-card-container .mdl-card__media img {
+      width: 100%;
+    }
+
+  .abw-card-container .mdl-card__title {
+    background: transparent;
+    height: auto;
+  }
+
+  .abw-card-container .mdl-card__title-text {
+    color: black;
+    height: auto;
+  }
+
+  .abw-card-container .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 48px;
+  }
+
+  .abw-card-container .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .abw-card-container .mdl-card__actions a {
+    border-top: none;
+    line-height: 32px;
+    font-size: 16px;
+  }
+
+.abw-footer {
+  background-color: #fafafa;
+  position: relative;
+}
+
+  .abw-footer a:hover {
+    color: #8bc34a;
+  }
+
+  .abw-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+  }
+
+  .abw-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+  }
+
+  .abw-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+  }
+
+  .abw-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+  }
+
+  .abw-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+
+.abw-link-menu:hover {
+  cursor: pointer;
+}
+
+
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+  .abw-navigation-container {
+    display: none;
+  }
+
+  .abw-title {
+    display: none !important;
+  }
+
+  .abw-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .abw-search-box.is-focused ~ .abw-mobile-title {
+    opacity: 0;
+  }
+
+  .abw-more-button {
+    display: none;
+  }
+
+  .abw-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+
+  .abw-search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+
+  .abw-be-together-section {
+    height: 350px;
+  }
+
+  .abw-slogan {
+    font-size: 26px;
+    margin: 0 16px;
+    padding-top: 24px;
+  }
+
+  .abw-sub-slogan {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+
+  .abw-create-character {
+    padding-top: 200px;
+    font-size: 16px;
+  }
+
+  .abw-create-character img {
+    height: 12px;
+  }
+
+  .abw-fab {
+    display: none;
+  }
+
+  .abw-wear-band-text {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  .abw-footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
