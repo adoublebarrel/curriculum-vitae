@@ -22,7 +22,7 @@ class ImportCvHandler(base.BaseHandler):
 			q = Skill.query(Skill.name.IN(aCv['tech_skills']))
 
 			skillKeys = q.fetch(keys_only=True)
-			
+
 			q = Skill.query(Skill.name.IN(aCv['dev_methods']))
 			methodKeys = q.fetch(keys_only=True)
 

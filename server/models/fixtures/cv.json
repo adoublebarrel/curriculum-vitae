@@ -52,4 +52,11 @@
 	"lead_in": "<p>As a senior engineer at Nokia, I played a key role in designing, coding, testing and deploying a music streaming web application that was horizontally scalable and rolled out to 35 territories across the globe. In the same role, I championed a move to responsive web design resulting in a working knowledge of what it takes to produce web clients that scale effectively; from mobile devices to large screens. As a full stack web developer of 14 years standing with DevOps skills, I have experience of working in and across agile teams around the globe. Since my last role at Nokia I have been studying towards an MSc in Advanced Computing.</p>",
 	"tech_skills": ["CSS & HTML", "Javascript", "PHP", "Python", "AngularJS", "NodeJS", "GruntJS", "Jasmine", "Linux", "MustacheJS", "Sass", "MySQL", "Google Cloud Datastore", "Git", "FlightJS"],
 	"dev_methods": ["Agile", "Responsive Web Design", "Test Driven Development (TDD)", "Continuous Integration"]
+},
+
+{
+	"name": "Full Stack Developer",
+	"lead_in": "<p>As a senior engineer I have played a key role in designing, coding, testing and deploying web applications that were horizontally scalable and have been rolled out to 35 territories across the globe. I have many years experience in agile techniques including scrum, pair programming and TDD. As a full stack web developer of 14 years standing with DevOps skills, I have experience of working in and across teams around the globe.</p>",
+	"tech_skills": ["CSS & HTML", "Javascript", "PHP", "Python", "AngularJS", "NodeJS", "GruntJS", "Jasmine", "Linux", "MustacheJS", "Sass", "Git"],
+	"dev_methods": ["Agile", "Responsive Web Design", "Test Driven Development (TDD)", "Continuous Integration"]
 }]
