@@ -56,7 +56,7 @@
 
 {
 	"name": "Full Stack Developer",
-	"lead_in": "<p>As a senior engineer I have played a key role in designing, coding, testing and deploying web applications that were horizontally scalable and have been rolled out to 35 territories across the globe. I have many years experience in agile techniques including scrum, pair programming and TDD. As a full stack web developer of 14 years standing with DevOps skills, I have experience of working in and across teams around the globe.</p>",
-	"tech_skills": ["CSS & HTML", "Javascript", "PHP", "Python", "AngularJS", "NodeJS", "GruntJS", "Jasmine", "Linux", "MustacheJS", "Sass", "Git"],
+	"lead_in": "<p>As a senior developer I have played a key role in designing, coding, testing and deploying various web based applications. These have ranged from small UK only products to larger efforts that have been rolled out to over 35 territories across the globe. My experience also includes a number of years practicing agile techniques including scrum, pair programming and TDD. I take a friendly, proactive approach to my work and enjoy delivering products that customers value and enjoy using.</p>",
+	"tech_skills": ["CSS & HTML", "Javascript", "PHP", "Python", "AngularJS", "NodeJS", "GulpJS", "Jasmine", "Linux", "MustacheJS", "Sass", "Git"],
 	"dev_methods": ["Agile", "Responsive Web Design", "Test Driven Development (TDD)", "Continuous Integration"]
 }]
