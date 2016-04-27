@@ -50,7 +50,7 @@ class ContactHandler(base.BaseHandler):
 
                 if 'invalid-input-response' in recaptchaJson['error-codes']:
                     self.redirect("/contact/not-human")
-                    
+
                     return
 
         except urllib2.URLError:
@@ -64,12 +64,11 @@ class ContactHandler(base.BaseHandler):
 
         self.redirect("/contact/sent")
 
-
     def hasRequiredFields(self, request):
         requiredFields = (
-            'email', 
+            'email',
             'g-recaptcha-response',
-            'message', 
+            'message',
             'name'
             )
 

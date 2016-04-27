@@ -6,32 +6,33 @@
 
 
   <div id="filter-controls" class="input-group hidden">
-  	<span id='filter-dropdown' class="input-group-btn">
-  	   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="sr-only">filters</span><span class="caret"></span></button>
+    <span id='filter-dropdown' class="input-group-btn">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="sr-only">filters</span><span class="caret"></span></button>
 
-		<ul id='filter-options' class="dropdown-menu" role="menu">
-			<li><a href="#?filter=" data-filter="Web Client">Web Clients</a></li>
-			<li><a href="#?filter=" data-filter="Web Server">Web Servers</a></li>
-			<li class="divider"></li>
-			<li><a href="#?filter=" data-filter="Programming Language">Programming Languages</a></li>
-			<li><a href="#" data-filter="Database">Databases</a></li>
-			<li class="divider"></li>
-			<li><a href="#" data-filter="Framework">Frameworks</a></li>
-			<li><a href="#" data-filter="Library">Libraries</a></li>
-			<li class="divider"></li>
-			<li><a href="#" data-filter="Continuous Integration">Continuous Integration</a></li>
-			<li><a href="#" data-filter="Version Control">Version Control</a></li>
-			<li><a href="#?filter=" data-filter="HPC">HPC</a></li>
-			<li class="divider"></li>
-			<li><a href="#filter=" data-filter="All">All</a></li>
-		</ul>		
-  	</span>
-  	<input id="custom-filter" type="text" class="form-control" placeholder="e.g. python, 'php', javascript" value="">
+      <ul id='filter-options' class="dropdown-menu" role="menu">
+        <li><a href="#?filter=" data-filter="Web Client">Web Clients</a></li>
+        <li><a href="#?filter=" data-filter="Web Server">Web Servers</a></li>
+        <li class="divider"></li>
+        <li><a href="#?filter=" data-filter="Programming Language">Programming Languages</a></li>
+        <li><a href="#" data-filter="Database">Databases</a></li>
+        <li class="divider"></li>
+        <li><a href="#" data-filter="Framework">Frameworks</a></li>
+        <li><a href="#" data-filter="Library">Libraries</a></li>
+        <li><a href="#" data-filter="Message Bus">Message Bus</a></li>
+        <li class="divider"></li>
+        <li><a href="#" data-filter="Continuous Integration">Continuous Integration</a></li>
+        <li><a href="#" data-filter="Version Control">Version Control</a></li>
+        <li><a href="#?filter=" data-filter="HPC">HPC</a></li>
+        <li class="divider"></li>
+        <li><a href="#filter=" data-filter="All">All</a></li>
+      </ul>
+    </span>
+    <input id="custom-filter" type="text" class="form-control" placeholder="e.g. python, 'php', javascript" value="">
 
 	  <div class="input-group-btn">
 
 <!-- 		  <button type="button" class="btn btn-danger"><span class="sr-only">Ok</span>clear<span class="glyphicon glyphicon-remove"></span></button></span> -->
-		  <button id="filter-ok" type="button" class="btn btn-success"><span class="sr-only">Ok</span><span class="glyphicon glyphicon-ok"></span></button>  
+		  <button id="filter-ok" type="button" class="btn btn-success"><span class="sr-only">Ok</span><span class="glyphicon glyphicon-ok"></span></button>
 	  </div>
 
   </div>
@@ -42,7 +43,7 @@
 	<thead>
 		<tr>
 			<th><a id="sort-by-name" class="sort" href="#">Name <span class="glyphicon glyphicon-sort"></span></a></th>
-			<th><a id="sort-by-years" class="sort" href="#">Years <span class="glyphicon glyphicon-sort"></span></a></th> 
+			<th><a id="sort-by-years" class="sort" href="#">Years <span class="glyphicon glyphicon-sort"></span></a></th>
 		</tr>
 	</thead>
 

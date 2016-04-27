@@ -753,5 +753,27 @@
 	"description": "<p>In my final year at Nokia I was involved in encouraging, setting up and running a number af hack days with my team.</p>",
 	"category": "leadership",
 	"tags": []
-}
+},
+ {
+     "name": "Docker",
+     "Years": 0.5,
+     "description": "<p>Docker was part of the architecure during my work at ADP meaning that I was hands on with it on a daily basis.</p>",
+     "category": "tech",
+     "tags": ["virtualisation"]
+ },
+ {
+     "name": "Kafka",
+     "Years": 0.5,
+     "description": "<p>I used Kafka as part of an investigation into the use of Spark for rapid processing of large amounts of data while at ADP.</p>",
+     "category": "tech",
+     "tags":["Message Bus"]
+ },
+ {
+     "name": "RabbitMQ",
+     "Years": 0.5,
+     "description": "<p>I led the introduction of the use of RabbitMQ while at ADP as part of an implementation of a workflow system.</p>",
+     "category": "tech",
+     "tags": ["Message Bus"]
+ }
+     
 ]

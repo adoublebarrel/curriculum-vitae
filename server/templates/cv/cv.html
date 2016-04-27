@@ -5,32 +5,32 @@
   <h1>Alexander Bransby-Williams <small class="text-nowrap">{{cv.name}}</small></h1>
   {% if showFull %}
   <ul id="contact" class="list-unstyled">
-  	<li>{{person.address}}</li>
-  	<li>{{person.mobile}}</li>
-  	<li>{{person.email}}</li>
-  	<li>https://abransbywilliams.appspot.com</li>
+    <li>{{person.address}}</li>
+    <li>{{person.mobile}}</li>
+    <li>{{person.email}}</li>
+    <li>https://abransbywilliams.appspot.com</li>
   </ul>
   {% endif %}
 
 {% endblock %}
 
 {% block content %}
-	<div id="lead-in" class="container">
-		{{cv.lead_in}}
-	</div>
+  <div id="lead-in" class="container">
+    {{cv.lead_in}}
+  </div>
 
-	<div id="skills" class="container">
-		<h2>Technical Skills Include</h2>
-		<ul>
-		{% for skill in tech_skills %}
-			<li>{{skill.name|escape}}</li>
-		{% endfor %}
-		</ul>
-	</div>
+  <div id="skills" class="container">
+    <h2>Technical Skills Include</h2>
+    <ul>
+      {% for skill in tech_skills %}
+      <li>{{skill.name|escape}}</li>
+      {% endfor %}
+    </ul>
+  </div>
 
-	<div id="employment" class="container">
-		<h2>Employment History</h2>
-		<ul class="list-unstyled">
+  <div id="employment" class="container">
+    <h2>Employment History</h2>
+    <ul class="list-unstyled">
 
       <li>
         <h3>ADP <small>Contracting Senior Engineer</small></h3>
@@ -39,57 +39,66 @@
         <ul>
           <li>Took part in the production of a new product based upon NodeJS with a SPA web frontend</li>
           <li>Researched the Storm and Spark systems as candidates for heavy data processing</li>
-          <li>Aided the design and implementation of a micro service architecture</li>
+          <li>Aided the design and implementation of a microservice architecture</li>
         </ul>
       </li>
-    	<li>
-    		<h3>Various Freelance</h3>
-    		<h4>December 2014 - April 2015</h4>
-    	</li>
       <li>
-        <h3>Full Time Study <small>MSc in Advanced Computing<small></h3>
+        <h3>Various Freelance</h3>
+        <h4>December 2014 - April 2015</h4>
+      </li>
+      <li>
+        <h3>Full Time Study <small>MSc in Advanced Computing</small></h3>
         <h4>October 2013 - November 2014</h4>
       </li>
-			<li>
-				<h3>Nokia Entertainment <small>Senior Software Engineer</small></h3>
-				<h4>September 2010 – October 2013</h4>
-				<h4>www.mixrad.io</h4>
-			</li>
+      <li>
 
-			<li>
-				<h3>Blubolt <small>Developer</small></h3>
-				<h4>October 2009 – June 2010</h4>
-				<h4>www.blubolt.com</h4>
-			</li>
+        <h3>Nokia Entertainment <small>Senior Software Engineer</small></h3>
+        <h4>September 2010 – October 2013</h4>
+        <h4>mixrad.io</h4>
+        <ul>
+          <li>Completed a proof of concept web audio experience which secured
+            the decision to produce a public offering</li>
+          <li>Formed a special interest group for web technologies whose members
+            went on to form the team that produces mixrad.io</li>
+          <li>Was promoted to the position of Senior Software Engineer based on
+            my leadership and technical expertise</li>
+        </ul>
+      </li>
 
-			<li>
-				<h3>MediaClash <small>Systems Developer and Administrator</small></h3>
-				<h4>August 2008 – October 2009</h4>
-				<h4>www.mediaclash.co.uk</h4>
-			</li>
+      <li>
+        <h3>Blubolt <small>Developer</small></h3>
+        <h4>October 2009 – June 2010</h4>
+        <h4>www.blubolt.com</h4>
+      </li>
 
-			<li>
-				<h3>Isotope Communications <small>Web Systems Developer and Administrator</small></h3>
-				<h4>May 2006 – August 2008</h4>
-			</li>
+      <li>
+        <h3>MediaClash <small>Systems Developer and Administrator</small></h3>
+        <h4>August 2008 – October 2009</h4>
+        <h4>www.mediaclash.co.uk</h4>
+      </li>
 
-			<li>
-				<h3>Freelance; Various</h3>
-				<h4>January 2006 – May 2006</h4>
-			</li>
+      <li>
+        <h3>Isotope Communications <small>Web Systems Developer and Administrator</small></h3>
+        <h4>May 2006 – August 2008</h4>
+      </li>
 
-			<li>
-				<h3>Eduserv Internet &ndash; <small>Web Systems Developer</small></h3>
-				<h4>June 2001 – September 2005</h4>
-			</li>
+      <li>
+        <h3>Freelance; Various</h3>
+        <h4>January 2006 – May 2006</h4>
+      </li>
 
-		</ul>
-	</div>
+      <li>
+        <h3>Eduserv Internet &ndash; <small>Web Systems Developer</small></h3>
+        <h4>June 2001 – September 2005</h4>
+      </li>
 
-	<div id="education" class="container">
-		<h3>Education</h3>
-		<h5>BSc. (Hons) 2.2 in Computing and Information Systems at the University of the West of England.</h5>
-	</div>
+    </ul>
+  </div>
+
+  <div id="education" class="container">
+    <h3>Education</h3>
+    <h5>BSc. (Hons) 2.2 in Computing and Information Systems at the University of the West of England.</h5>
+  </div>
 {% endblock %}
 
 {% block js %}

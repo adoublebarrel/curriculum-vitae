@@ -59,4 +59,10 @@
 	"lead_in": "<p>As a senior developer I have played a key role in designing, coding, testing and deploying various web based applications. These have ranged from small UK only products to larger efforts that have been rolled out to over 35 territories across the globe. My experience also includes a number of years practicing agile techniques including scrum, pair programming and TDD. I take a friendly, proactive approach to my work and enjoy delivering products that customers value and enjoy using.</p>",
 	"tech_skills": ["CSS & HTML", "Javascript", "PHP", "Python", "AngularJS", "NodeJS", "GulpJS", "Jasmine", "Linux", "MustacheJS", "Sass", "Git"],
 	"dev_methods": ["Agile", "Responsive Web Design", "Test Driven Development (TDD)", "Continuous Integration"]
+},
+{
+    "name": "Software Engineer",
+    "lead_in": "<p>As a senior engineer I have played a key role in designing, coding and testing web based services and applications. These have ranged from small UK only products to larger efforts that have been rolled out to over 35 territories across the globe. My experience also includes over 5 years practicing agile techniques in continuous integration environments. I take a friendly and proactive approach to my work and enjoy delivering products that customers value and enjoy using.</p>",
+    "tech_skills": ["Python", "Javascript", "PHP", "Linux", "Git", "Kafka", "RabbitMQ", "Docker", "NodeJS", "Jenkins"],
+    "dev_methods": ["Agile", "Test Driven Development (TDD)", "Continuos Integration"]
 }]

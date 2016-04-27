@@ -35,7 +35,7 @@ gulp.task('default', function () {
 gulp.task('build', function() {
   rjs({
     app: '../js',
-    baseUrl: 'app/bower_components',
+    baseUrl: 'app/bower_components/',
     dir: '../deploy',
     paths: {
       'js': '../js'    
