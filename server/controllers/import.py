@@ -7,8 +7,8 @@ from server.models.skill import Skill
 from server.models.person import Person
 
 class ImportCvHandler(base.BaseHandler):
-	def get(self):
-		q = Cv.query()
+        def get(self):
+                q = Cv.query()
 
 		for key in q.iter(keys_only=True):
 			key.delete()

@@ -1,0 +1,954 @@
+[
+  {
+    "name": "PHP",
+    "exercised": "2015-03-01",
+    "will": "Want me to do anything you need PHP for.",
+    "months": 156,
+    "complement": "Zend Framework, CakePHP, Symfony",
+    "tags": [
+      "Programming Language",
+      "Web Server"
+    ],
+    "description": "<p>Learnt during my first role as a graduate I've used PHP as the glue to produce small database driven web services and products upto large, API driven, multi-lingual products that have been rolled out to over 35 territories across the globe.<\/p>",
+    "category": "tech",
+    "wont": "Want to choose anyone else."
+  },
+  {
+    "name": "CSS & HTML",
+    "exercised": "2016-06-12",
+    "will": "Want me to help your designers achieve great looking web based products",
+    "months": 168,
+    "complement": "includes Twitter Bootstrap, HTML5 Boiler plate, Responsive Design, Mobile First, SMACSS",
+    "tags": [
+      "Web Client"
+    ],
+    "description": "<p>A constant since my first web job back in 1999, I've kept my knowledge of these core web technologies current my whole career. In my last position I championed a move towards responsive web design and the use of the latest and emerging standards.<\/p><p>I have direct experience in championing mobile first approaches coupled with responsive design in my last role. I also tend to favour graceful degradation, where the latest browser features are taken advantage of as a starting point for a design, rather than progressive enhancement. However choice of approach when it comes to web design is very much dependent on the type of product, target audience and budget. My experience is that it's best to adopt the combination of approaches that best fit the job at hand.<\/p>",
+    "category": "tech",
+    "wont": "Want me to make create assets for your site in Photoshop\/Fireworks\/etc."
+  },
+  {
+    "name": "Javascript",
+    "exercised": "2016-06-12",
+    "will": "Want me to consult, lead and\/or help produce your JS codebase.",
+    "months": 168,
+    "complement": "JQuery, AngularJS, FlightJS, SoundManager, Jplayer",
+    "tags": [
+      "Programming Language",
+      "Web Client"
+    ],
+    "description": "<p>I've worked with Javascript my whole career most recently producing a rich interactive single page application for streaming music. Whether it's writing just plain Javascript or leveraging the plethora of libraries and frameworks that are available, you wont find many people with more experience.<\/p><p>While I've worked with JS my entire career my knowledge of it as a language heavily accelerated during my time at Nokia. If you're doing more than just changing CSS classes I consider Crockfords Javascript the Good Parts required reading and highly recommend Addy Osmanis Learnig Javascript design patterns. I still consider JQuery to be essential if you want your product to work on a wide number of browsers with a minimum of fuss. If a framework is being used I tend to prefer lighter ones that augment\/work with the DOM model we have currently such as FlightJS rather than ones which enforce their own model such as AngularJS. However there are situations where angular is the perfect tool for the job.<\/p><p>I've tinkered with NodeJS but didn't consider it ready for production environments where %99.99 uptime Service Level Agreements are in place. If you're looking for someone to help with a NodeJS based product then I would be very interested in the work and how you are finding its' stability.<\/p>",
+    "category": "tech",
+    "wont": "Want to miss out on having someone this experienced on your team."
+  },
+  {
+    "name": "Python",
+    "exercised": "2016-06-12",
+    "will": "Want me to help produce and maintain Python based applications.",
+    "months": 72,
+    "complement": "Django, webapp2, Jinja2, OpenCV",
+    "tags": [
+      "Programming Language",
+      "Web Server"
+    ],
+    "description": "<p>I've used Python to produce database (MySQL, PostgreSQL) driven sites, Google App Engine driven sites (including the one you're using now), and data pre-processing tasks amongst other jobs.<\/p><p>I first used it in a commercial setting when I worked for MediaClash where Django was being used as the framework to produce all newly commissoned work. Since then my roles have been primarily PHP based with Python being used for personal projects. The result is I am a solid application programmer but don't have any working knowledge of advanced Python topics such as Metaclasses.<\/p>",
+    "category": "tech",
+    "wont": "Want me to be the technical lead on your product."
+  },
+  {
+    "name": "Google App Engine",
+    "exercised": "2016-06-12",
+    "will": "Want me to advise\/lead\/produce your migration to\/creation of an App Engine based product.",
+    "months": 24,
+    "complement": "webapp2, Jinja2",
+    "tags": [
+      "Web Server"
+    ],
+    "description": "<p>My direct commercial experience of Google App Engine is limited to small sites (including this one) but my knowledge of the data store is higher than my commercial experience suggests due to having to fully research it as part of an Msc.<\/p><p>The Msc project for a cloud computing unit was particularly useful since it required a knowledge of App Engine as a whole and in particular its various data storage options. To this end I'd highly recommend reading Dan Sandersons Programming Google App Engine. I found the details he goes into on the mechanics of the various data storage options very useful indeed given my experience with various relational database management systems which to scale and guarantee uptime usually involves sharding and the use of indexing tools such as Solr.<\/p><p>This service from google is currently my go to for personal projects as it enables the focus to be on the application itself by more or less taking the operational considerations out of the equation.<\/p>",
+    "category": "tech",
+    "wont": "Want to miss out on having me as part of your team."
+  },
+  {
+    "name": "Amazon Web Services",
+    "exercised": "2013-04-01",
+    "will": "Be able to expect me to adapt to working in an AWS based environment quickly.",
+    "months": 0,
+    "tags": [],
+    "description": "<p>I've tinkered with Amazons cloud offerings in my own time but haven't direct commercial experience.<\/p><p>For simple web applications I currently prefer Googles App Engine as it's free for low usage and the deploy path is cleaner (no machine images to worry about, amongst other things). However my tinkering means that I should be able to get up to speed quickly unless you have a particulary bespoke setup.<\/p>",
+    "category": "tech",
+    "wont": "Want to put me straight onto a time pressured migration project."
+  },
+  {
+    "name": "Java",
+    "exercised": "2015-08-12",
+    "will": "be able to trust me to use Java at a superficial level and\/or quickly up my knowledge if required.",
+    "months": 12,
+    "tags": [
+      "Programming Language"
+    ],
+    "description": "<p>The last application I produced using Java was a long time ago and the language has moved on significantly since then. The most I've done recently is co-author and maintain a Selenium based testing suite, but that doesn't require a very deep knowledge of Javas internals.<\/p>",
+    "category": "tech",
+    "wont": "Want me anywhere near a lead Java Programmer position without some time reading up and working at the coal face."
+  },
+  {
+    "name": "C",
+    "exercised": "2016-03-14",
+    "will": "Want me to produce well defined units of work.",
+    "months": 6,
+    "complement": "OpenMP, MPI, OpenCL",
+    "tags": [
+      "Programming Language",
+      "HPC"
+    ],
+    "description": "<p>I'm a junior C programmer after learning the language as part of an Msc programme where I used it for High Performance Computing and Server Software units. I have the basics of the language down but still need to gain more practical experience with the various debugging and profiling tools that make up the C ecosystem.<\/p><p>I recently learnt C as part of an Msc course I was taking. Specifically I learnt it while taking a High Performance Computing (HPC) unit where we were optimising a provided two dimensonal simulation of water flowing along a surface with obstacles present. I would describe myself as proficient with the language itself but in need of more code cutting experience to come across and debug more problems. This in turn would up my proficiency with the various [enter some here] profiling and debugging tools which I see as key to becoming a highly effective\/efficient C programmer.<\/p><p>I also became proficient in C++ after C as part of doing some computer vision base work which involved the use of the OpenCV library as well as using the OpenCL C++ interface as part of the HPC unit. Again I would say that I need more code cutting time to come across and debug more problems but in addition to improving my proficiency with the [put some here] profiling and debugging tools it would also deepen my practical experience of the standard library.<\/p>",
+    "category": "tech",
+    "wont": "Want me in a senior coding position or coming straight into high time pressure situations."
+  },
+  {
+    "name": "C++",
+    "exercised": "2014-02-04",
+    "will": "Want me to produce well definde units of work.",
+    "months": 6,
+    "tags": [
+      "Programming Language",
+      "HPC"
+    ],
+    "description": "<p>I'm a junior C++ prgrammer after learning the language as part of an Msc where I worked on a computer vision project and part of a high performance computing unit. I have the basics of the language down but my knowledge of and experience with the C++ standard library is at an early stage.<\/p>",
+    "category": "tech",
+    "wont": "Want me in a senior coding position."
+  },
+  {
+    "name": "Clojure",
+    "exercised": "2013-03-20",
+    "months": 3,
+    "tags": [
+      "Programming Language"
+    ],
+    "description": "<p>I was introduced to this language by colleagues at Nokia who started to produce new services as well as migrating existing Java based services to it. I've had some formal training in it, got the book, done some Koans but haven't used it for any projects yet.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Apache httpd",
+    "exercised": "2013-08-25",
+    "will": "Want me to advise, collaborate and implement changes to your Apache server setup to get the most out of your infrastructure.",
+    "months": 168,
+    "tags": [
+      "Web Server"
+    ],
+    "description": "<p>The first web server I used when I started in the industry in 1999 when I would compile it from source on Sparc Solaris machines my practical experience with the Apache web server and its available modules is extensive.<\/p><p>In my last position we used Apache as part of a horizontally scalable load balanced solution. My experience with this server outstripped many of the sysadmins which allowed us to collaborate to get the most out of the loadbalancers by offloading some of the work they were doing onto the Apache Servers. This was great dev-ops collaboration and was a testament to the great attitudes between the teams.<\/p>",
+    "category": "tech",
+    "wont": "Be able to find many developers who have this level of experience and ability to work with your sysadmins."
+  },
+  {
+    "name": "MySQL",
+    "exercised": "2010-05-25",
+    "will": "Want me to advise on schema design, indexing and query optimisation for small to large datasets.",
+    "months": 144,
+    "tags": [
+      "Database"
+    ],
+    "description": "<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years. More recently I've been working either with web services as read only datastores or NoSQL products such as Googles offering. However while MySQL has continued to evolve the basics of good relational database design and optimisation are relatively constant. It wouldn't take long for me to get back up to speed.<\/p><p>I've designed, implemented and optimised many a schema for MySQL databases that were used as the backend of various web services and sites. I've also setup replication infrastructures for load balanced systems. I have classical training from my degree and the practical experience to take a schema design to 3rd normal form and then regress it for the sake of performance.<\/p><p>I've not been directly involved with the sharding of large datasets and the use of seperate indexing technology such as Solr. I've not been hands on with MySQl for couple of years but will be able to get back up to speed quickly if required.<\/p>",
+    "category": "tech",
+    "wont": "Want me to be in charge of a project to shard, index and optimise a huge dataset."
+  },
+  {
+    "exercised": "2008-06-05",
+    "wont": "Want me to be in charge of a project to shard, index and optimise a huge dataset.",
+    "descripntion": "<p>MySQL and PostgreSQL were a mainstay of my career for more or less 10 years. More recently I've been working either with web services as datastores or NoSQL datastores such as Googles offering. However while PostrsSQL has continued to evolve the basics of good relational database design and optimisation are relatively constant. It wouldn't take long for me to get back up to speed.<\/p><p>I've designed, implemented and optimised a number of databases in PostgreSQL over the years. I have classical training from my degree and the practical experience to take a schema design to 3rd normal form and then to peel it back for the sake of performance.<\/p><p>The biggest PostgreSQL database I've worked with was for UK Digital Radio postcode checker which maps the signal strength of digital stations to postcodes in the UK. The database was in the order of tens of millions of rows. After taking over responsibility for the database I reduced the amount of time it took for updates receieved from Arqiva to be made from 3-4 days to 2-4 hours.<\/p><p>My last role was purely application focused meaning I haven't worked directly with Postgres for a few years but renewing that knowledge wouldn't be a difficult task.<\/p><p>I don't have direct experience with larger data sets which may require a sharded PostrgeSQL solution.<\/p>",
+    "months": 144,
+    "tags": [
+      "Database"
+    ],
+    "name": "PostrgeSQL",
+    "will": "Want me to advise on schema design, indexing and query optimisation for small to large datasets.",
+    "category": "tech"
+  },
+  {
+    "name": "Google Cloud Datastore",
+    "exercised": "2016-06-12",
+    "months": 12,
+    "tags": [
+      "Database"
+    ],
+    "description": "<p>Over the last few years I've run a number of personal projcets (including this one) on Googles cloud platform. This has included the use of the DB and now NDB APIs to interact wiht Googles NoSQL datastore. I've also conducted some research into Googles Datastore for a unit of an Msc. As a result I have a sound theoretical knowledge of issues unique to the datastore such as indexes, transactions, eventual consistency v.s. strong consistency, etc.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Linux",
+    "exercised": "2016-06-12",
+    "will": "Be impressed by my Linux knowledge, for a dev.",
+    "months": 168,
+    "tags": [
+      "OS"
+    ],
+    "description": "<p>My OS of choice for development. I'm equally happy on the command line as the gui.<\/p><p>Linux and other *nix based systems have been the mainstay of my career. My early roles would probably now be described as dev-ops as I did a mix of sysadmin and development. While my career solidified around software development\/engineering I have found my early experience very useful enabling me to setup and maintain a multitude of different development environments and have intelligent conversations with the teams that have provided the infrastructure for live environments I have operated in.<\/p><p>I am very comfortable on the command line meaning I am capable of doing live problem diagnosis in tandem with a sysadmin when required. This is invaluable when trying to determine whether the root cause of an issue is a bug in the code, an infrastructure issue or, in the most unfortunate cases, a combination of the two. I have by no means learnt all the tips and tricks though and enjoy being shown new skills by a good sysadmin.<\/p>",
+    "category": "tech",
+    "wont": "rm -rf \/*."
+  },
+  {
+    "name": "Windows",
+    "exercised": "2016-06-12",
+    "will": "Be able to trust me to find my way around a Windows based environment and turn stuff on and off again.",
+    "months": 168,
+    "tags": [
+      "OS"
+    ],
+    "description": "<p>Not my first choice for a development environment when producing Linuk based services but I have used it as my workstation in the past.<\/p><p>My experience with Windows systems have been a limited constant throghout my career. I've known enough to be able to troubleshoot problems as part of an on call team but knowing that I have the backup of a more knowledgeable colleague if required. I've worked with a number of Windows based development environments over the years, generally when managing my own Linux workstation\/laptop isn't an option. This means that I am familiar with the requisite tools such as remote desktop to get to other Windows machines and Putty to be able to get onto other Linux machines. This also works the other way round, that is I am used to establishing remote desktop sessions from Linux workstations. It also means that I have come across and worked around fun issues in a mixed environment such as version control systems getting confused because Windows files are case insensitive While *nix files are case sensitive. Always fun.<\/p><p>I did spend about a year as a C# developer in the context of producing Sitecore based web sites but that was some time ago.<\/p>",
+    "category": "tech",
+    "wont": "Want me to troubleshoot complicated problems with IIS, SQL Server or other Microsoft products."
+  },
+  {
+    "name": "Perl",
+    "exercised": "2007-07-13",
+    "will": "Find I can pick this up again with a little time.",
+    "months": 48,
+    "tags": [
+      "Programming Language",
+      "Web Server"
+    ],
+    "description": "<p>The first language I produced websites in I rarely pick this up any more as Python is my go to tool of choice for small scripting jobs.<\/p>",
+    "category": "tech",
+    "wont": "Want me to lead a Perl based project."
+  },
+  {
+    "name": "Miva",
+    "exercised": "2000-09-13",
+    "will": "Probably not of heard of this scripting language.",
+    "months": 36,
+    "tags": [],
+    "description": "<p>This is probably the most obscure scripting language I've worked with which I came across in my first role after graduating. I've just checked and it still appears to be going as Miva Merchant. I would need a strong motivating factor to work with it again.<\/p>",
+    "category": "tech",
+    "wont": "Want to recruit me for this, I barely remember it."
+  },
+  {
+    "name": "C#",
+    "exercised": "2005-04-15",
+    "will": "Be able to expect me to pick this up again if it's required.",
+    "months": 12,
+    "tags": [
+      "Programming Language"
+    ],
+    "description": "<p>I spent about a year using C# in combination with a CMS called SiteCore but, apart from playing around with it in the game development engine Unity, haven't done much with it since.<\/p><p>I worked as part of a team producing content management systems based upon a product called SiteCore. SiteCore is a Windows based product so we were required to learn C# and .NET along with it.<\/p><p>My career since hasn't involved any C# which is a bit of a shame since it's a good well designed language. I still dabble with it on some personal projects but nothing that's seen the light of day yet. My knowlegde of .NET would be very out of date if it hadn't already atrophied rather badly.<\/p>",
+    "category": "tech",
+    "wont": "Be able to expect me to come in to a time pressured situation and make the difference with my C# skills."
+  },
+  {
+    "name": "ASP",
+    "exercised": "2009-09-23",
+    "will": "Find I have little skill with this language.",
+    "months": 24,
+    "tags": [],
+    "description": "<p>Not the .NET variant. While at MediaClash I had to maintain a couple of older websites that used ASP. My proficiency here is pretty much monkey see, monkey do.<\/p><p>One of my duties at MediaClash was maintaining an number of older client sites. These were based on previous technical stacks now that all new sites were being produced using the Python based Django framework. A number of these were produced using ASP, not ASP .NET just ASP. Changes to their codebases were usually around hard coded data which while I hadn't used ASP before, one scripting language is much like another, which was enough for me to keep the sites running.<\/p>",
+    "category": "tech",
+    "wont": "Want to tell me about it unless it's to help migrate your product to something else."
+  },
+  {
+    "name": "SWI-Prolog",
+    "exercised": "2014-04-18",
+    "will": "Find me interested in opportunities to work with this language\/paradigm.",
+    "months": 6,
+    "tags": [
+      "Programming Language"
+    ],
+    "description": "<p>Learnt for an artificial intelligence unit as part of an Msc, this language has been one of the hardest to get my head around since I made the move from procedural to OO. It was difficult but rewarding and I'm looking forward to experimenting with applications based on it in the future.<\/p><p>It took some getting used to after spending so many years programming in other not only other languages but in different programming paradigms. For me at the moment it is an interesting toy but I have some personal projects where I think this language may provide a practical benefit.<\/p>",
+    "category": "tech",
+    "wont": "Want to put me in charge of a project that depends on lots of experience with Prolog."
+  },
+  {
+    "name": "Matlab",
+    "exercised": "2014-04-18",
+    "will": "Be able to trust me to find my way round Matlab.",
+    "months": 6,
+    "tags": [],
+    "description": "<p>I've used Matlab in a purely academic context as part of an Msc.<\/p><p>The application areas were varied including Bioinformatics, genetic algorithms and robotics.<\/p>",
+    "category": "tech",
+    "wont": "Want to hire me as a Matlab expert."
+  },
+  {
+    "name": "Selenium",
+    "exercised": "2012-11-02",
+    "will": "Want me to advise on usage of Selenium and other testing options.",
+    "months": 24,
+    "tags": [
+      "Web Server",
+      "Web Client"
+    ],
+    "description": "<p>I've used Selenium and Selenium grid to conduct automated multi-browser testing of web products as part of a continuous integration environment. The results were mixed though and the team I was in moved towards a CasperJS solution combined with expermentation with the BrowserStack service.<\/p><p>However the team I was part of eventually abandoned this solution as the overhead of maintaining the various browser drivers and the lag between browser updates breaking the selenium drivers and fixes being released resulted in too many false positives. We were spending so much time figuring out whether breakages were due to our code or selenium driver problems that it was impacting our ability to deliver new functionality.<\/p><p>The situation may of improved since then but my current stance is that it is better to use a third party tool such as Browser stack, especially as it also simulates different devices, than try to keep a large suite of test devices as part of an automated solution.<\/p>",
+    "category": "tech",
+    "wont": "Find many with as much hands on experience with this tech."
+  },
+  {
+    "name": "Jenkins",
+    "exercised": "2013-10-02",
+    "will": "Want me to help setup Jenkins as part of a continuous integratation environment.",
+    "months": 24,
+    "tags": [
+      "Continuous Integration"
+    ],
+    "description": "<p>I have installed, configured and migrated a number of jenkins servers and jobs giving me a lot of hands on experience with this tool.<\/p><p>In my last role Jenkins was used to automate a number of continuous integration tasks as well as to provide an interface for repeated ad-hoc jobs.<\/p>",
+    "category": "tech",
+    "wont": "Have to worry about holding my hand."
+  },
+  {
+    "name": "Git",
+    "exercised": "2016-06-12",
+    "will": "Be able to leave me to it once you explain your branching, push, pull and release policies.",
+    "months": 36,
+    "tags": [
+      "Version Control"
+    ],
+    "description": "<p>I'm a competent day-to-day user of Git but do generally have to hit the manual if something unexpected happens.<\/p><p>In my last role I championed the move to Git inside my team for a new project, the previous standard had been Subversion. While there was some nervousness amongst some team members with support from myself and other members who were familiar with Git we successfully made the transition.<\/p><p>I am by no means a git expert and have only really scratched the surface of some of its functionality but know enough to cater for day to day development duties. I tend to prefer the command line over guis although guis are useful for visualising branching and merging when it's required. Speaking of visualisations if you don't know of it already you should totally checkout Gource. It's awesome, especially when a projects been running for a while.<\/p>",
+    "category": "tech",
+    "wont": "Want me to try to explain Gits internals off the top of my head."
+  },
+  {
+    "name": "Subversion",
+    "exercised": "2010-06-18",
+    "will": "Find I'm competent with Subversion.",
+    "months": 156,
+    "tags": [
+      "Version Control"
+    ],
+    "description": "<p>I moved to Subversion as soon as the first stable version was released as it fixed so many of the problems with CVS. It was a huge improvement but still had problems. There are now better options out there, personally I use Git, figuring if it's good enough the Linux Kernel development then it's good enough for me. I also hear good things about Mercurial from people whose opinion I respect and I know are happy using Git as well, I just haven't got round to trying it yet.<\/p><p>If you're reading this because you're looking for someone who can use Subversion, I can but I'll also give some advice you haven't asked for. Migrate your project to Git or Mercurial. I know it can be a lot of effort and some people will grumble at the change but I can vouch that Git is better, there's just a set of problems I don't have to deal with now and good people tell me Mercurial is too. It may be painful but it will be worth it in terms of productivity.<\/p>",
+    "category": "tech",
+    "wont": "Find I'm a fan of Subversion projects with lots of small files."
+  },
+  {
+    "name": "CVS",
+    "exercised": "2005-09-12",
+    "will": "Want me to help you migrate to a modern version control system.",
+    "months": 36,
+    "tags": [
+      "Version Control"
+    ],
+    "description": "<p>It did a good job for its time but I really hope you're not still using CVS. Move to Git or Mercurial, for the sake of all your developers.<\/p>",
+    "category": "tech",
+    "wont": "Want to keep using CVS."
+  },
+  {
+    "name": "Gettext",
+    "exercised": "2013-10-02",
+    "will": "Want my expertise with Gettext and producing multi-lingual products in general.",
+    "months": 36,
+    "tags": [
+      "Tool"
+    ],
+    "description": "<p>Used in a PHP context to provide a multi-lingual and localised web product to 35 different territories. I recommended it's use within the project and worked with the third party translators to ensure they and we were happy.<\/p>",
+    "category": "tech",
+    "wont": "Want me translating things myself."
+  },
+  {
+    "name": "Maven",
+    "exercised": "2013-10-02",
+    "will": "Be able to leave me to find my way around project configuration files and to come up with new projects from scratch.",
+    "months": 24,
+    "tags": [
+      "Continuous Integration"
+    ],
+    "description": "<p>I learnt Maven in my last role where it was the backbone of the continuous integration environment. Using it to wrap a PHP product was a little... inelegant as it is more of a Java tool and so there are assumptions about compile steps. It is also a on the heavy side as its configuration files are XML based but it does get the job done.<\/p>",
+    "category": "tech",
+    "wont": "Find me wearing a Maven t-shirt. If there is one."
+  },
+  {
+    "description": "<p>A great tool for seeing what's really going on when a browsers dev tools aren't being very helpful and other situations when you need to get your hands on the raw packets of network comms.<\/p>",
+    "exercised": "2015-08-24",
+    "months": 60,
+    "tags": [
+      "Web Client",
+      "Web Server"
+    ],
+    "name": "Wire Shark",
+    "category": "tech"
+  },
+  {
+    "description": "<p>I've mainly used this handy plugin for browsers on Windows to aid problem identification when the builtin browser dev tools aren't cutting the mustard.<\/p>",
+    "exercised": "2013-08-18",
+    "months": 24,
+    "tags": [
+      "Web Client",
+      "Web Server"
+    ],
+    "name": "Fiddler",
+    "category": "tech"
+  },
+  {
+    "name": "Ruby",
+    "exercised": "2012-10-19",
+    "will": "Need to give me time to become proficient with this language.",
+    "months": 0,
+    "tags": [
+      "Programming Language"
+    ],
+    "description": "<p>I did a bit of ruby as part of a group at work who were going through the book 7 languages in 7 weeks together. Its penchant for syntatic sugar reminded me of Perl but I haven't used it long enough to get a proper feel for it.<\/p>",
+    "category": "tech",
+    "wont": "Find my rapidly knocking out five star ruby code from the off."
+  },
+  {
+    "name": "Sass",
+    "exercised": "2013-10-04",
+    "will": "Find I'm comfortable using Sass but will refer to the documentation frequently",
+    "months": 6,
+    "tags": [
+      "Web Client"
+    ],
+    "description": "<p>Near the end of my time with Nokia we started to introduce the use of Sass into the development process. As a result I have some commercial experience with basic usage including authoring and contributing to some basic mixins.<\/p>",
+    "category": "tech",
+    "wont": "Find me giving a talk on advanced usage of Sass"
+  },
+  {
+    "name": "Less CSS",
+    "exercised": "2013-10-04",
+    "will": "Be able to drop me into a codebase that makes use of Less",
+    "months": 3,
+    "tags": [
+      "Web Client"
+    ],
+    "description": "<p>Less is something I've experimented with, primarily in the context of evaluating it against Sass.<\/p>",
+    "category": "tech",
+    "wont": "Call me a Less expert"
+  },
+  {
+    "name": "GruntJS",
+    "exercised": "2015-10-12",
+    "will": "Trust me to join a project that uses Grunt already with no problems.<\/p>",
+    "months": 6,
+    "tags": [
+      "Web Client"
+    ],
+    "description": "<p>In the last 6 months of my time with Nokia we moved the web client specific build steps, such as linting and minification, from Maven tasks to GruntJS. As a result I have basic knowledge of Grunt on a what I need it to do basis.",
+    "category": "tech",
+    "wont": "Have anything to worry about on this front"
+  },
+  {
+    "name": "MustacheJS",
+    "exercised": "2012-10-02",
+    "will": "Expect me to have a working knowledge of MustacheJS.",
+    "months": 12,
+    "tags": [
+      "Web Client",
+      "Library"
+    ],
+    "description": "<p>My team at Nokia were early adopters of MustacheJS although we moved to HanblebarsJS as soon as it became stable.<\/p>",
+    "category": "tech",
+    "wont": "be surprised if I recommend a move te HanblebarsJS at some point in the future."
+  },
+  {
+    "name": "Bootstrap",
+    "exercised": "2016-04-10",
+    "months": 36,
+    "tags": [
+      "Web Client",
+      "Framework"
+    ],
+    "description": "<p>A great web framework for kickstarting projects. Its last release featured support out of the box for projects using responsive design, mobile first approaches. I've made frequent use of this framework for internal projects while I was at Nokia and have continued to use it for personal projects including this site.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "HandlebarsJS",
+    "exercised": "2013-10-02",
+    "months": 24,
+    "tags": [
+      "Web Client",
+      "Library"
+    ],
+    "description": "<p>Advertising itself as MustacheJS on steroids we swapped this in to replace MustacheJS while I was with Nokia.",
+    "category": "tech"
+  },
+  {
+    "name": "RequireJS",
+    "exercised": "2015-03-15",
+    "months": 24,
+    "tags": [
+      "Web Client",
+      "Library"
+    ],
+    "description": "<p>An essential library for Javascript although it now has competition in the form of Browserify I've used it in a number of projects for modular dependencies and minification, including this site.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Karma",
+    "exercised": "2015-03-15",
+    "months": 3,
+    "tags": [
+      "Web Client"
+    ],
+    "description": "<p>A testrunner that runs tests in real browsers I've most recently used it in combination with Jasmine to test the Javascript that this site uses.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "NodeJS",
+    "exercised": "2015-10-12",
+    "will": "Find my experience and JS knowledge means I pick NodeJS up quickly",
+    "months": 12,
+    "tags": [
+      "Web Client",
+      "Web Server"
+    ],
+    "description": "<p>After helping to debug a slightly broken Node application in my last role I've since completed the core tutorials at nodeschool.io giving me a basic competency with it, albeit backed with years of client side Javascript experience.<\/p><p>I have also helped debug a third party Node app that my team had inherited in pressured circumstances.<\/p>",
+    "category": "tech",
+    "wont": "Be able to just drop me in to a NodeJS project and expect immediate results"
+  },
+  {
+    "name": "Jasmine",
+    "exercised": "2015-10-12",
+    "will": "Find I'm capable with Jasmine",
+    "months": 24,
+    "tags": [
+      "Web Client",
+      "Library"
+    ],
+    "description": "<p>I first investigated Jasmine while I was at Nokia where we were using QUnit for testing Javascript. I was impressed and have since used it in a number of personal projects.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Bower",
+    "exercised": "2016-06-12",
+    "will": "Be fine dropping me into a project that uses Bower.",
+    "months": 24,
+    "tags": [
+      "Web Client"
+    ],
+    "description": "<p>I first came across Bower when I started using FlightJS. Since then I've used it to manage dependencies for a number of personal projects.<\/p>",
+    "category": "tech",
+    "wont": "Have to explain what Bower is to me."
+  },
+  {
+    "name": "GulpJS",
+    "exercised": "2016-06-01",
+    "months": 24,
+    "tags": [
+      "Web Client"
+    ],
+    "description": "<p>I've only recently come across this workflow automation tool as it now comes bundled with the FlightJS project generator. I'm a fan of the Unix idiom of small programs that do job well being combined for larger tasks, so plan to experiment with this in the future.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "PhantomJS",
+    "exercised": "2013-10-02",
+    "will": "Find my hands on experience with PhantomJS to be an asset",
+    "months": 12,
+    "tags": [
+      "Continuous Integration",
+      "Web Client"
+    ],
+    "description": "<p>I came across PhantomJS while researching alternatives to Selenium which my team were using as part of a continuous integration environment. We promptly adopted it, in combination with CasperJS resulting in a much stabler integration environment.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "CasperJS",
+    "exercised": "2013-10-02",
+    "months": 12,
+    "tags": [
+      "Continuous Integration",
+      "Web Client"
+    ],
+    "description": "<p>I came across CasperJS while researching alternatives to Selenium which my team were using as part of a continuous integration environment. We promptly adopted it, resulting in a much stabler integration environment.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "CakePHP",
+    "exercised": "2009-10-12",
+    "months": 24,
+    "tags": [
+      "Framework"
+    ],
+    "description": "<p>I used this framework for producing a number of CMS driven websites for small to medium sized businesses while I was with MediaClash.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Django",
+    "exercised": "2009-10-15",
+    "months": 24,
+    "tags": [
+      "Framework"
+    ],
+    "description": "<p>While I was at MediaClash they transitoned to using Django for all new client work. I produced a number of sites using the framework with some requiring moderate to heavy customisation of the admin interface.",
+    "category": "tech"
+  },
+  {
+    "name": "Symfony",
+    "exercised": "2012-03-12",
+    "months": 12,
+    "tags": [
+      "Framework"
+    ],
+    "description": "<p>This was the framework in use for web development when I joined Nokia, before there was a transition to the Zend Framework.<\/p>",
+    "category": "tech"
+  },
+  {
+    "exercised": "2013-10-15",
+    "descrinption": "<p>Having used parts of Zend 1 for smaller projcets earlier in my career I went on to build up the majority of my experience with it at Nokia. I became very familiar with its dispatch process and the suite of available packages. During this time Zend 2 was released which I explored with the idea of potentially migrating towards but didn't get far past the proposal stage before I moved on from Nokia.<\/p>",
+    "months": 36,
+    "tags": [
+      "Framework"
+    ],
+    "name": "Zend Framework",
+    "category": "tech"
+  },
+  {
+    "name": "webapp2",
+    "exercised": "2015-04-22",
+    "months": 12,
+    "tags": [
+      "Framework"
+    ],
+    "description": "<p>The out of the box framework with Google App Engine. I've used it to produce personal projects including the site you're using right now.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "flask",
+    "exercised": "2016-06-12",
+    "months": 6,
+    "tags": [
+      "Framework"
+    ],
+    "description": "<p>A Python micro-framework that I've used for personal projects with Google App Engine.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "FlightJS",
+    "exercised": "2015-04-18",
+    "months": 12,
+    "tags": [
+      "Framework"
+    ],
+    "description": "<p>I first came across this framework while conducting my research duties at Nokia. I used it for an internal project there and have gone on to use it in some personal projects, including this site.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "AngularJS",
+    "exercised": "2015-03-15",
+    "months": 0,
+    "tags": [
+      "Web Client",
+      "Framework"
+    ],
+    "description": "<p>I've used Angular for a few CRUD based internal projects in my last role giving me basic familiarity backed by my years of experience with Javascript.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "JSLint",
+    "exercised": "2015-10-12",
+    "months": 24,
+    "tags": [
+      "Web Client",
+      "Library"
+    ],
+    "description": "<p>In the last project I worked on we used JSLint to help keep code quality high.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "JQuery",
+    "exercised": "2013-10-15",
+    "months": 72,
+    "tags": [
+      "Library",
+      "Web Client"
+    ],
+    "description": "<p>The almost ubiquitous Javascript web dev library. My experience has tended towards leveraging JQuery in custom and open source frameworks. As a result I haven't got heavily into authoring and maintaining JQuery plugins but am capable if required.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "MooTools",
+    "exercised": "2008-08-14",
+    "months": 24,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>This was the tool of choice when I was at Isotope Communications some years ago. These days I'm much more up to date with JQuery.",
+    "category": "tech"
+  },
+  {
+    "name": "SoundManager",
+    "exercised": "2012-08-07",
+    "months": 24,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>I learnt alot about the idiosyncracies of this JS library while at Nokia where I worked on a streaming music experience (<a href=\"http:\/\/www.mixrad.io\">www.mixrad.io<\/a>). As the project wore on we moved to jPlayer.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "jPlayer",
+    "exercised": "2013-10-15",
+    "months": 12,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>After some research and prototyping the music streaming product I worked on switched to using this library form SoundManager.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Jinja2",
+    "exercised": "2016-04-13",
+    "months": 24,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>A template engine that is provided as a built-in option for Google App Engine which I've used for a number of personal projects.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "gettext",
+    "exercised": "2013-10-15",
+    "months": 36,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>While at Nokia the primary project I worked on used this library in combination with PHP for the translation of copy. This enabled us to roll the product out to over 35 countries relatively easily.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "OpenCV",
+    "exercised": "2014-04-13",
+    "months": 3,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>I used the C++ version of this library for an Msc project where I was experimenting with the SURF, SIFT and ASIFT algorithms to identify locations with graffiti.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "WebTest",
+    "exercised": "2015-04-12",
+    "months": 0,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>I've only recently started using this library to test the webapp2 handlers that drive this site. So far it has been a pleasure to use.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Beautiful Soup",
+    "exercised": "2015-04-12",
+    "months": 0,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>I've used this via the WebTest library to test html output from webapp2 handlers. It's great, if you are doing any screen scraping or anything else that requires parsing html\/xml and know Python I'd highly recommend it.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "QUnit",
+    "exercised": "2013-10-02",
+    "months": 36,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>I was introduced to this JS testing library when I started at Nokia where all our work was well covered by tests. It's a good tool but for me it is beaten by Jasmine which is what I use for JS testing in personal projects.",
+    "category": "tech"
+  },
+  {
+    "name": "PHPUnit",
+    "exercised": "2013-10-02",
+    "months": 48,
+    "tags": [
+      "Library"
+    ],
+    "description": "<p>Originally the de-facto library for testing PHP code I mainly used this for unit testing and controller testing a Zend Framework application while I was at Nokia. There are now a few alternatives such as Codeception and SimpleTest but I haven't taken the time yet to do more than look them up.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "OpenCL",
+    "exercised": "2013-12-12",
+    "months": 3,
+    "tags": [
+      "HPC"
+    ],
+    "description": "<p>Enableing the writing of code for parallel execution in heterogeneous environments. I gained some experience in this when I took a module in High Performance Computing as part of an Msc.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "OpenMP",
+    "exercised": "2013-11-01",
+    "months": 3,
+    "tags": [
+      "HPC"
+    ],
+    "description": "<p>The simplest library that enables parallel computing, of the ones I've been exposed to. It featured on the High Performance Computing module I took as part of an Msc.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "MPI",
+    "exercised": "2013-10-15",
+    "months": 3,
+    "tags": [
+      "HPC"
+    ],
+    "description": "<p>This was one of the libraries I was introduced to on the High Performance Computing module I took as part of an Msc.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Pair Programming",
+    "exercised": "2015-10-12",
+    "months": 48,
+    "tags": [],
+    "description": "<p>My role at Nokia was where I first came across formal Pair Programming, in addition to official agile techniques in general. I've found it to be one of the more difficult skills that I've developed in recent years but have found it to be a beneficial tool under the right circumstances.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Test Driven Development (TDD)",
+    "exercised": "2016-06-15",
+    "months": 48,
+    "tags": [],
+    "description": "<p>I have dabbled with TDD but despite working with some champions of this approach I haven't been a member of a team that has fully committed to it. So, while I'm an admirer of it as an approach and use it on a small scale for personal projects, I can't draw any experiential conclusions on its advantages and drawbacks in larger team based projects.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Agile",
+    "exercised": "2015-10-12",
+    "months": 48,
+    "tags": [],
+    "description": "<p>In my experience the techniques that make up Agile vary from organisation to organisation and often from team to team within an organisation. Since the core ethos of Agile is &quot;getting stuff done&quot; this makes sense - what&apos;s necessary to get a job done is going to vary from context to context. This is a rather long winded way of saying that my experience of agile is unlikely to be exactly the same as your experience of agile. If I had to boil down my experience of Agile I would say it was made up of a set of lightweight processes that are under constant change. Agile isn&apos;t a box that you can tick and declare &quot;We&apos;re Agile now&quot;. It is something that has to be strived for from week to week and yet cannot ever be fully achieved.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Scrum",
+    "exercised": "2015-10-12",
+    "months": 24,
+    "tags": [],
+    "description": "<p>Discussing Scrum with friends and colleagues in the industry over the years it&apos;s become obvious that the day to day details can differ quite widely between organisations. The version of Scrum I worked with involved 2 week sprints with a typical team composition being a scrum master, product owner and four engineers. Another common composition would either add or swap a ux\/ui designer for an engineer. Retrospectives were conducted at the end of the two week cycle and the target maximum time for daily standups was ten minutes.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Kanban",
+    "exercised": "2013-10-02",
+    "months": 18,
+    "tags": [],
+    "description": "<p>A person&apos;s experience of Kanban is going to differ significantly depending on the processes that are in place when it is initiated. In my case the team I was in was used to operating Scrum when a Kanban approach was adopted. This meant we retained many of the same tools (such as stories, backlog, the board) and ceremonies (backlog grooming, standup, retrospectives) as Scrum but were allowed to make incremental changes that could be considered to break the scrum model.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Prototyping",
+    "exercised": "2016-06-15",
+    "months": 180,
+    "tags": [],
+    "description": "<p>In the sense of rapidly producing proof of concept systems that are thrown away for a fresh start if the concept is proved to be viable. This is a tool that I have made use of throughout my career.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Responsive Web Design",
+    "exercised": "2016-06-15",
+    "months": 30,
+    "tags": [],
+    "description": "<p>In my last role I championed a move to a responsive design and more specifically a mobile first approach for a redesign of our product. As a result I have experience in working with designers to acheive UIs and UX that work across multiple canvases.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Web Accessibility",
+    "exercised": "2005-09-12",
+    "months": 120,
+    "tags": [],
+    "description": "<p>I started my career working on projects for various higher education institutions and government departments where accessibility was considered a priority. In more recent years accessibility hasn't been as strong a driver for the commercial companies I've worked for. As a result my accessibility methodology is a little rusty but I am aware of ensuring web clients are usable via keyboard only, that they are readable in gray-scale, WAI-ARIA and screen reader testing.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Continuous Integration",
+    "exercised": "2013-10-02",
+    "months": 36,
+    "tags": [],
+    "description": "<p>When I joined Nokia the Bristol office was transitioning from big bang releases to a continuous integration approach. After working in such an environments for 3 years I gained a good working knowledge of what behaviours need to be in place to make such an approach work as well as a number of pieces of technology that support these behaviours.<\/p>",
+    "category": "method"
+  },
+  {
+    "name": "Mentoring",
+    "exercised": "2013-10-02",
+    "months": 36,
+    "tags": [],
+    "description": "<p>I have strong mentoring experience. At Nokia I was heavily involved with the local student placement programming and took direct responsability for ensuring that students who joined my team had a structured and smooth introduction. As a senior engineer at Nokia and a technical lead I also mentored a number of my fellow team members in specific areas.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Research",
+    "exercised": "2016-06-15",
+    "months": 168,
+    "tags": [],
+    "description": "<p>Informally I have continuously researched new skills and technology, one of my favourite aspects of the software industry is that this is essential to stay current. More formally, my recent experience with taking an Msc program has improved my ability to evaluate, structure and communicate the results of research.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Presenting",
+    "exercised": "2013-10-02",
+    "months": 168,
+    "tags": [],
+    "description": "<p>I am very comfortable giving presentations on a small and informal scale, typically to one to two teams of 6-7 people. While I have occasionally presented, and slightly more frequently co-presented, to modest rooms of people I wouldn't describe the results as slick. This is an area that I'm looking to actively improve upon.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Recruiting",
+    "exercised": "2013-10-02",
+    "months": 24,
+    "tags": [],
+    "description": "<p>As a senior engineer I have been involved with the recruitment of new members of staff, primarily from the perspective of discovering and confirming candidates technical competencies. This has included CV filtering, the creation of standard question sets as well as more involved exercises and the actual conducting of first, second and third stage interviews.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Interest Groups",
+    "exercised": "2013-10-02",
+    "months": 12,
+    "tags": [],
+    "description": "<p>As I settled in at Nokia I realised that a number of my colleagues had web development backgrounds but many were spread across teams working on phone clients. I setup a group that met on a weekly basis during a lunch hour that acted as a space for interested colleagues to research, learn and share various web development skills. Overall it was a positive experience and core memebers of this group and I went on to form the team that produced <a href=\"http:\/\/www.mixrad.io\">www.mixrad.io<\/a>.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Client Relationships",
+    "exercised": "2010-06-23",
+    "months": 168,
+    "tags": [],
+    "description": "<p>Since my first role with Eduserv I've always had direct contact with the clients who I'm producing software for. I've found being able to have a direct relationship with a client makes the process of producing the right product at the right time easier. It's also an aspect of the job that I enjoy, there's a great sense of satisfaction when you have a good relationship with a client, particularly when you deliver the product they want.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Inter-Team\/Departmental Relationships",
+    "exercised": "2013-10-02",
+    "months": 36,
+    "tags": [],
+    "description": "<p>A key element to large organisations working well are good relationships between its teams and departments. While I wasn't shy in making contact with new colleagues in different teams to start with, working at Nokia took it to new places. Literally. I've worked with teams located in Finland, the U.S.A. and India using a variety of mediums of communication. While distance and time zones make it more challenging I've found that my friendly, professional demeanor helps build positive relationships.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Hack Days",
+    "exercised": "2013-10-02",
+    "months": 12,
+    "tags": [],
+    "description": "<p>In my final year at Nokia I was involved in encouraging, setting up and running a number af hack days with my team.<\/p>",
+    "category": "leadership"
+  },
+  {
+    "name": "Docker",
+    "exercised": "2015-10-12",
+    "months": 6,
+    "tags": [
+      "virtualisation"
+    ],
+    "description": "<p>Docker was part of the architecure during my work at ADP meaning that I was hands on with it on a daily basis.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Kafka",
+    "exercised": "2015-08-16",
+    "months": 6,
+    "tags": [
+      "Message Bus"
+    ],
+    "description": "<p>I used Kafka as part of an investigation into the use of Spark for rapid processing of large amounts of data while at ADP.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "RabbitMQ",
+    "exercised": "2015-08-16",
+    "months": 6,
+    "tags": [
+      "Message Bus"
+    ],
+    "description": "<p>I led the introduction of the use of RabbitMQ while at ADP as part of an implementation of a workflow system.<\/p>",
+    "category": "tech"
+  },
+  {
+    "name": "Polymer",
+    "exercised": "2015-06-15",
+    "months": 6,
+    "tags": [],
+    "description": "<p>I've recently used Polymer in a number of personal projects.",
+    "category": "tech"
+  }
+]

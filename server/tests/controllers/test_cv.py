@@ -54,7 +54,7 @@ class testCvHandlers(unittest.TestCase):
 		dataSkills = self.extractSortedNames(query)
 
 		query = Skill.query(Skill.key.IN(dataCv.dev_methods))
-		dataMethods = self.extractSortedNames(query)		
+		dataMethods = self.extractSortedNames(query)
 
 		response = self.testApp.get('/cv/' + dataCv.name_uri)
 		htmlCv = response.html.find(id='cv')
@@ -112,7 +112,7 @@ class testCvHandlers(unittest.TestCase):
 			q = Skill.query(Skill.name.IN(aCv['tech_skills']))
 
 			skillKeys = q.fetch(keys_only=True)
-			
+
 			q = Skill.query(Skill.name.IN(aCv['dev_methods']))
 			methodKeys = q.fetch(keys_only=True)
 
@@ -121,6 +121,4 @@ class testCvHandlers(unittest.TestCase):
 				lead_in=aCv.get('lead_in'),
 				tech_skills=skillKeys,
 				dev_methods=methodKeys,
-			).put()
-
-
+                        ).put()

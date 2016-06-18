@@ -32,16 +32,15 @@ class SkillsListHandler(base.BaseHandler):
 	def get(self):
 		skills = Skill.query().order(-Skill.months, Skill.name_lower).fetch()
 		self.response.headers['Content-Type'] = 'application/json'
-		
+
 		for skill in skills:
 			self.response.write(json.dumps(skill.to_dict(exclude=['created','updated']),ensure_ascii=False,skipkeys=True))
-		
+
 
 class SkillHandler(base.BaseHandler):
-	def get(self, skillKey):		
+	def get(self, skillKey):
 		skill_key = ndb.Key(urlsafe=skillKey)
 		skill = skill_key.get()
 
 		self.response.headers['Content-Type'] = 'application/json'
 		self.response.write(json.dumps(skill.to_dict(exclude=['created','updated']),ensure_ascii=False,skipkeys=True))
-		
