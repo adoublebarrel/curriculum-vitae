@@ -5,16 +5,16 @@ from flaskr_skills import FlaskrSkillsTestCase
 
 class TechRoot(FlaskrSkillsTestCase):
     def test_list_techs_only(self):
-        rv = self.get('/tech')
-        techs = json.loads(rv.data)
+        rv = self.get('/techs')
+        apiTechs = json.loads(rv.data)
 
-        techOnly = self.get_tech_names_from_fixture()
-        nonTech = (skill['name'] for skill in techs if skill['name'] not in techOnly)
-        print tuple(techOnly)
-        assert len(tuple(nonTech)) == 0
+        techOnly = tuple(self.get_tech_names_from_fixture())
+        nonTech = tuple(skill['name'] for skill in apiTechs if skill['name'] not in techOnly)
+
+        assert len(nonTech) == 0
 
     def test_techs_calculate_freshness(self):
-        rv = self.get('/tech')
+        rv = self.get('/techs')
         techs = json.loads(rv.data)
 
         freshness = {}
@@ -23,13 +23,13 @@ class TechRoot(FlaskrSkillsTestCase):
 
             staleFactor = ((date.today() - exercised).days / 30) / 6
 
-            freshness[tech['name']] = tech['months'] * 0.33 ** staleFactor
+            freshness[tech['name']] = (tech['months'] * 0.33 ** staleFactor) / tech['months']
 
         for tech in techs:
             assert tech['freshness'] == freshness[tech['name']]
 
     def test_techs_ordered_by_freshness(self):
-        rv = self.get('/tech')
+        rv = self.get('/techs')
         techs = json.loads(rv.data)
 
         prev = techs[0]
@@ -42,3 +42,12 @@ class TechRoot(FlaskrSkillsTestCase):
 
     def get_tech_names_from_fixture(self):
         return (skill['name'] for skill in self.skills if skill['category'] == 'tech')
+
+    def test_get_tech(self):
+        rv = self.get('/techs')
+        apiTechs = json.loads(rv.data)
+
+        rv = self.get('/techs/' + apiTechs[0]['key'])
+        skill = json.loads(rv.data)
+
+        assert skill['name'] == apiTechs[0]['name']

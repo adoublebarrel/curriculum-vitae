@@ -13,6 +13,28 @@ indexes:
 - kind: Skill
   properties:
   - name: category
+  - name: freshness
+    direction: desc
+  - name: months
+    direction: desc
+  - name: name_lower
+
+- kind: Skill
+  properties:
+  - name: category
+  - name: freshness
+    direction: desc
+
+- kind: Skill
+  properties:
+  - name: category
+  - name: freshness
+    direction: desc
+  - name: name_lower
+
+- kind: Skill
+  properties:
+  - name: category
   - name: months
     direction: desc
   - name: name_lower

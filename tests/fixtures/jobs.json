@@ -1,0 +1,83 @@
+ [
+    {
+        "company": "ADP",
+        "url": "http://www.adp.com",
+        "description": "<p>My first commercial NodeJS based contract, I primarily worked on a data ingestion and export system for ADPs next generation human capital and payroll platform.</p>",
+        "started": "2015-04-14",
+        "ended": "2015-10-14",
+        "role": "Contracting Senior Engineer",
+        "achievements": [
+            "Took part in the production of a new product based upon NodeJS with a SPA web frontend",
+            "Researched the Storm and Spark systems as candidates for heavy data processing",
+            "Aided the design and implementation of a microservice architecture"
+        ],
+        "techs": [ "NodeJS", "Javascript", "Grunt", "Gulp", "Docker", "Spark", "Storm", "HTML & CSS", "Jasmine"]
+    },
+    {
+        "company": "Various Short Contracts",
+        "description": "<p>During this period I undertook a number of short contracts, usually to help meet an impending deadline, the largest of which was for an agency called IntoHand.</p>",
+        "started": "2014-12-01",
+        "ended": "2015-04-12",
+        "role": "Contracting Senior Engineer",
+        "techs": ["PHP", "Python", "Javascript", "Bootstrap", "Google App Engine", "Google Datastore", "HTML & CSS"]
+    },
+    {
+        "company": "Full Time Study",
+        "role": "MSc in Advanced Computing",
+        "started": "2013-10-13",
+        "ended": "2014-11-1",
+        "description": "<p>An abortive attempt at re-skilling towards a big data specialisation.</p>",
+        "techs": [ "C", "C++", "OpenCL", "MDP", "Mathematica", "Python", "Weka"],
+        "achievements": ["Completed an HPC module which involved learining C at the same time as programming computing clusters to run a 2 dimensonal fluid simulation"]
+    },
+    {
+        "company": "Nokia Entertainment",
+        "role": "Senior Software Engineer",
+        "started": "2010-09-02",
+        "ended": "2013-10-11",
+        "description": "<p>I was originally hired for my PHP web development experience to move an existing international .NET/Windows music store to a PHP/Linux solution. However on arrival I found myself assigned to a prototype of a music streaming web application with a much stronger emphasis on Javascript than PHP. The project was a success resulting in the green lighting of a public facing version and promotion for myself.</p><p>I then spent the rest of my time at Nokia involved in the design and production of the new product which was rolled out to 35 different territories.</p>",
+        "techs": [ "PHP", "PHPUnit", "Javascript", "Qunit", "Jquery", "JPlayer", "SoundManager", "Jenkins", "Apache", "Zend Framework", "logstash", "Clojure", "HTML & CSS"],
+        "achievements": [ "Completed a proof of concept web audio experience which secured the decision to produce a public offering.", "Formed a special interest group for web technologies whose members went on to form the team that produced mixrad.io", "Was promoted to the position of Senior Software Engineer based on my leadership and technical expertise."]
+    },
+    {
+        "company": "Blubolt",
+        "role": "Developer",
+        "started": "2009-10-12",
+        "ended": "2010-07-14",
+        "url": "www.blubolt.com",
+        "techs": [ "PHP", "Javascript", "HTML & CSS", "MySQL", "Wordpress", "Apache"],
+        "description": "<p>I spent a short time with Blubolt, deciding to leave after it became clear that the role wasn't a good fit for the stage I was at in my career. It was a shame as other than that it was a good studio with good people.</p>"
+    },
+    {
+        "company": "MediaClash",
+        "role": "Systems Developer and Administrator",
+        "started": "2008-08-03",
+        "ended": "2009-10-01",
+        "description": "Put something here.",
+        "techs": ["PHP", "CakePHP", "Python", "Django", "ASP", "PostgreSQL", "MySQL", "Mail Chimp", "MS SQL Server", "MS IIS", "HTML & CSS", "Wordpress", "Apache", "Sendmail", "Javascript", "Jquery"]
+    },
+    {
+        "company": "Isotope Communications",
+        "role": "Web Systems Developer and Administrator",
+        "started": "2006-05-14",
+        "ended": "2008-08-01",
+        "description": "",
+        "techs": ["PHP", "Perl", "Apache", "Bind 9", "Dovecot", "Sendmail", "qmail", "Exim", "Javascript", "MooTools", "HTML & CSS", "World Pay", "MySQL"]
+    },
+    {
+        "company": "Contracting; Various",
+        "role": "Web Developer and Sysadmin",
+        "started": "2006-01-02",
+        "ended": "2006-05-03",
+        "description": "",
+        "techs": ["PHP", "Javascript", "Jquery", "Apache", "HTML & CSS", "MySQL"]
+    },
+    {
+        "company": "Eduserv Internet",
+        "role": "Web Systems Developer",
+        "started": "2001-06-01",
+        "ended": "2005-09-28",
+        "description": "My first role after graduating",
+        "techs": ["PHP", "Perl", "Apache", "MySQL", "PostgreSQL", "Exim", "Miva", "HTML & CSS"]
+    }
+]
